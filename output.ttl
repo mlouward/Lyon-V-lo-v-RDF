@@ -1,0 +1,2634 @@
+@prefix ex: <http://www.semanticweb.org/maxime/ontologies/2021/2/untitled-ontology-16#> .
+@prefix ns1: <http://www.semanticweb.org/maxime/ontologies/2021/2/untitled-ontology-16#BicycleStand/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/maxime/ontologies/2021/2/untitled-ontology-16> a owl:Ontology .
+
+ex:10001 a ex:BicycleStand ;
+    ns1:id "10001"^^xsd:int ;
+    ns1:lat 4.578563e+01 ;
+    ns1:lng 4.88241e+00 ;
+    ns1:name "IUT - Feyssine"^^xsd:string .
+
+ex:10002 a ex:BicycleStand ;
+    ns1:id "10002"^^xsd:int ;
+    ns1:lat 4.578222e+01 ;
+    ns1:lng 4.876955e+00 ;
+    ns1:name "INSA"^^xsd:string .
+
+ex:10004 a ex:BicycleStand ;
+    ns1:id "10004"^^xsd:int ;
+    ns1:lat 4.577623e+01 ;
+    ns1:lng 4.862621e+00 ;
+    ns1:name "Tonkin"^^xsd:string .
+
+ex:10005 a ex:BicycleStand ;
+    ns1:id "10005"^^xsd:int ;
+    ns1:lat 4.577969e+01 ;
+    ns1:lng 4.860009e+00 ;
+    ns1:name "11 novembre"^^xsd:string .
+
+ex:10006 a ex:BicycleStand ;
+    ns1:id "10006"^^xsd:int ;
+    ns1:lat 4.577023e+01 ;
+    ns1:lng 4.863133e+00 ;
+    ns1:name "Charpennes"^^xsd:string .
+
+ex:10007 a ex:BicycleStand ;
+    ns1:id "10007"^^xsd:int ;
+    ns1:lat 4.577422e+01 ;
+    ns1:lng 4.867504e+00 ;
+    ns1:name "Piaton / Condorcet"^^xsd:string .
+
+ex:10008 a ex:BicycleStand ;
+    ns1:id "10008"^^xsd:int ;
+    ns1:lat 4.577837e+01 ;
+    ns1:lng 4.879673e+00 ;
+    ns1:name "Salengro / Vaillant"^^xsd:string .
+
+ex:1001 a ex:BicycleStand ;
+    ns1:id "1001"^^xsd:int ;
+    ns1:lat 4.576773e+01 ;
+    ns1:lng 4.832135e+00 ;
+    ns1:name "Terreaux / Terme"^^xsd:string .
+
+ex:10011 a ex:BicycleStand ;
+    ns1:id "10011"^^xsd:int ;
+    ns1:lat 4.576923e+01 ;
+    ns1:lng 4.880462e+00 ;
+    ns1:name "Gratte-Ciel"^^xsd:string .
+
+ex:10012 a ex:BicycleStand ;
+    ns1:id "10012"^^xsd:int ;
+    ns1:lat 4.576807e+01 ;
+    ns1:lng 4.887124e+00 ;
+    ns1:name "Zola / France"^^xsd:string .
+
+ex:10013 a ex:BicycleStand ;
+    ns1:id "10013"^^xsd:int ;
+    ns1:lat 4.576495e+01 ;
+    ns1:lng 4.901015e+00 ;
+    ns1:name "Cusset"^^xsd:string .
+
+ex:10014 a ex:BicycleStand ;
+    ns1:id "10014"^^xsd:int ;
+    ns1:lat 4.576512e+01 ;
+    ns1:lng 4.909818e+00 ;
+    ns1:name "Laurent Bonnevay / Astroballe"^^xsd:string .
+
+ex:10015 a ex:BicycleStand ;
+    ns1:id "10015"^^xsd:int ;
+    ns1:lat 4.575788e+01 ;
+    ns1:lng 4.921142e+00 ;
+    ns1:name "Poudrette / Musset"^^xsd:string .
+
+ex:10016 a ex:BicycleStand ;
+    ns1:id "10016"^^xsd:int ;
+    ns1:lat 4.57521e+01 ;
+    ns1:lng 4.914643e+00 ;
+    ns1:name "Place de la paix"^^xsd:string .
+
+ex:10018 a ex:BicycleStand ;
+    ns1:id "10018"^^xsd:int ;
+    ns1:lat 4.576181e+01 ;
+    ns1:lng 4.880722e+00 ;
+    ns1:name "Tolstoï / Florian"^^xsd:string .
+
+ex:10019 a ex:BicycleStand ;
+    ns1:id "10019"^^xsd:int ;
+    ns1:lat 4.576448e+01 ;
+    ns1:lng 4.877921e+00 ;
+    ns1:name "4 Août / Racine"^^xsd:string .
+
+ex:1002 a ex:BicycleStand ;
+    ns1:id "1002"^^xsd:int ;
+    ns1:lat 4.576761e+01 ;
+    ns1:lng 4.836657e+00 ;
+    ns1:name "Opéra"^^xsd:string .
+
+ex:10021 a ex:BicycleStand ;
+    ns1:id "10021"^^xsd:int ;
+    ns1:lat 4.575972e+01 ;
+    ns1:lng 4.889947e+00 ;
+    ns1:name "GrandClément"^^xsd:string .
+
+ex:10023 a ex:BicycleStand ;
+    ns1:id "10023"^^xsd:int ;
+    ns1:lat 4.575765e+01 ;
+    ns1:lng 4.883471e+00 ;
+    ns1:name "Jaurès / Saint Exupéry"^^xsd:string .
+
+ex:10024 a ex:BicycleStand ;
+    ns1:id "10024"^^xsd:int ;
+    ns1:lat 4.575597e+01 ;
+    ns1:lng 4.877414e+00 ;
+    ns1:name "Maisons Neuves"^^xsd:string .
+
+ex:10025 a ex:BicycleStand ;
+    ns1:id "10025"^^xsd:int ;
+    ns1:lat 4.576364e+01 ;
+    ns1:lng 4.873141e+00 ;
+    ns1:name "Totem"^^xsd:string .
+
+ex:10027 a ex:BicycleStand ;
+    ns1:id "10027"^^xsd:int ;
+    ns1:lat 4.576683e+01 ;
+    ns1:lng 4.880115e+00 ;
+    ns1:name "Mairie de Villeurbanne"^^xsd:string .
+
+ex:10028 a ex:BicycleStand ;
+    ns1:id "10028"^^xsd:int ;
+    ns1:lat 4.576752e+01 ;
+    ns1:lng 4.874011e+00 ;
+    ns1:name "Ecole de musique"^^xsd:string .
+
+ex:1003 a ex:BicycleStand ;
+    ns1:id "1003"^^xsd:int ;
+    ns1:lat 4.576927e+01 ;
+    ns1:lng 4.83008e+00 ;
+    ns1:name "Place Sathonay"^^xsd:string .
+
+ex:10030 a ex:BicycleStand ;
+    ns1:id "10030"^^xsd:int ;
+    ns1:lat 4.577385e+01 ;
+    ns1:lng 4.893845e+00 ;
+    ns1:name "Greuze"^^xsd:string .
+
+ex:10031 a ex:BicycleStand ;
+    ns1:id "10031"^^xsd:int ;
+    ns1:lat 4.578064e+01 ;
+    ns1:lng 4.883497e+00 ;
+    ns1:name "Croix Luizet"^^xsd:string .
+
+ex:10032 a ex:BicycleStand ;
+    ns1:id "10032"^^xsd:int ;
+    ns1:lat 4.575712e+01 ;
+    ns1:lng 4.899993e+00 ;
+    ns1:name "Primat / Decorps"^^xsd:string .
+
+ex:10034 a ex:BicycleStand ;
+    ns1:id "10034"^^xsd:int ;
+    ns1:lat 4.576182e+01 ;
+    ns1:lng 4.886134e+00 ;
+    ns1:name "Docteur Damidot"^^xsd:string .
+
+ex:10035 a ex:BicycleStand ;
+    ns1:id "10035"^^xsd:int ;
+    ns1:lat 4.576316e+01 ;
+    ns1:lng 4.90048e+00 ;
+    ns1:name "Boiron Granger"^^xsd:string .
+
+ex:10036 a ex:BicycleStand ;
+    ns1:id "10036"^^xsd:int ;
+    ns1:lat 4.577436e+01 ;
+    ns1:lng 4.859155e+00 ;
+    ns1:name "Stalingrad"^^xsd:string .
+
+ex:10038 a ex:BicycleStand ;
+    ns1:id "10038"^^xsd:int ;
+    ns1:lat 4.577903e+01 ;
+    ns1:lng 4.866863e+00 ;
+    ns1:name "Condorcet"^^xsd:string .
+
+ex:10039 a ex:BicycleStand ;
+    ns1:id "10039"^^xsd:int ;
+    ns1:lat 4.577946e+01 ;
+    ns1:lng 4.891581e+00 ;
+    ns1:name "Bouvier"^^xsd:string .
+
+ex:10041 a ex:BicycleStand ;
+    ns1:id "10041"^^xsd:int ;
+    ns1:lat 4.575292e+01 ;
+    ns1:lng 4.898899e+00 ;
+    ns1:name "Kimmerling"^^xsd:string .
+
+ex:10043 a ex:BicycleStand ;
+    ns1:id "10043"^^xsd:int ;
+    ns1:lat 4.578298e+01 ;
+    ns1:lng 4.890635e+00 ;
+    ns1:name "Salengro / Feyssine"^^xsd:string .
+
+ex:10045 a ex:BicycleStand ;
+    ns1:id "10045"^^xsd:int ;
+    ns1:lat 4.576691e+01 ;
+    ns1:lng 4.870161e+00 ;
+    ns1:name "Anatole France / Alsace"^^xsd:string .
+
+ex:10046 a ex:BicycleStand ;
+    ns1:id "10046"^^xsd:int ;
+    ns1:lat 4.577074e+01 ;
+    ns1:lng 4.867334e+00 ;
+    ns1:name "Charmettes / Zola"^^xsd:string .
+
+ex:10047 a ex:BicycleStand ;
+    ns1:id "10047"^^xsd:int ;
+    ns1:lat 4.577112e+01 ;
+    ns1:lng 4.885024e+00 ;
+    ns1:name "Lherminier / Pressensé"^^xsd:string .
+
+ex:10048 a ex:BicycleStand ;
+    ns1:id "10048"^^xsd:int ;
+    ns1:lat 4.575914e+01 ;
+    ns1:lng 4.875994e+00 ;
+    ns1:name "Place Marengo"^^xsd:string .
+
+ex:10049 a ex:BicycleStand ;
+    ns1:id "10049"^^xsd:int ;
+    ns1:lat 4.576917e+01 ;
+    ns1:lng 4.89677e+00 ;
+    ns1:name "Pressensé"^^xsd:string .
+
+ex:1005 a ex:BicycleStand ;
+    ns1:id "1005"^^xsd:int ;
+    ns1:lat 4.576609e+01 ;
+    ns1:lng 4.832834e+00 ;
+    ns1:name "Meissonier"^^xsd:string .
+
+ex:10053 a ex:BicycleStand ;
+    ns1:id "10053"^^xsd:int ;
+    ns1:lat 4.577939e+01 ;
+    ns1:lng 4.863095e+00 ;
+    ns1:name "Rossellini / 11 Novembre"^^xsd:string .
+
+ex:10054 a ex:BicycleStand ;
+    ns1:id "10054"^^xsd:int ;
+    ns1:lat 4.57767e+01 ;
+    ns1:lng 4.859523e+00 ;
+    ns1:name "Stalingrad / Meliès"^^xsd:string .
+
+ex:10055 a ex:BicycleStand ;
+    ns1:id "10055"^^xsd:int ;
+    ns1:lat 4.57764e+01 ;
+    ns1:lng 4.867087e+00 ;
+    ns1:name "Condorcet / Galline"^^xsd:string .
+
+ex:10056 a ex:BicycleStand ;
+    ns1:id "10056"^^xsd:int ;
+    ns1:lat 4.577906e+01 ;
+    ns1:lng 4.871496e+00 ;
+    ns1:name "11 novembre / Gaston Berger"^^xsd:string .
+
+ex:10058 a ex:BicycleStand ;
+    ns1:id "10058"^^xsd:int ;
+    ns1:lat 4.576709e+01 ;
+    ns1:lng 4.892429e+00 ;
+    ns1:name "Métro Flachet"^^xsd:string .
+
+ex:10059 a ex:BicycleStand ;
+    ns1:id "10059"^^xsd:int ;
+    ns1:lat 4.576884e+01 ;
+    ns1:lng 4.884292e+00 ;
+    ns1:name "Anatole France / Zola"^^xsd:string .
+
+ex:1006 a ex:BicycleStand ;
+    ns1:id "1006"^^xsd:int ;
+    ns1:lat 4.57679e+01 ;
+    ns1:lng 4.819817e+00 ;
+    ns1:name "Subsistances"^^xsd:string .
+
+ex:10060 a ex:BicycleStand ;
+    ns1:id "10060"^^xsd:int ;
+    ns1:lat 4.575886e+01 ;
+    ns1:lng 4.87875e+00 ;
+    ns1:name "Saint Exupéry"^^xsd:string .
+
+ex:10061 a ex:BicycleStand ;
+    ns1:id "10061"^^xsd:int ;
+    ns1:lat 4.577078e+01 ;
+    ns1:lng 4.872959e+00 ;
+    ns1:name "République"^^xsd:string .
+
+ex:10063 a ex:BicycleStand ;
+    ns1:id "10063"^^xsd:int ;
+    ns1:lat 4.575839e+01 ;
+    ns1:lng 4.885609e+00 ;
+    ns1:name "Perrin / Jean Jaurès"^^xsd:string .
+
+ex:10064 a ex:BicycleStand ;
+    ns1:id "10064"^^xsd:int ;
+    ns1:lat 4.57648e+01 ;
+    ns1:lng 4.884271e+00 ;
+    ns1:name "4 août 1789"^^xsd:string .
+
+ex:10071 a ex:BicycleStand ;
+    ns1:id "10071"^^xsd:int ;
+    ns1:lat 4.576153e+01 ;
+    ns1:lng 4.89569e+00 ;
+    ns1:name "Lycée Marie Curie"^^xsd:string .
+
+ex:10072 a ex:BicycleStand ;
+    ns1:id "10072"^^xsd:int ;
+    ns1:lat 4.577422e+01 ;
+    ns1:lng 4.864291e+00 ;
+    ns1:name "Jacques Brel"^^xsd:string .
+
+ex:10073 a ex:BicycleStand ;
+    ns1:id "10073"^^xsd:int ;
+    ns1:lat 4.576145e+01 ;
+    ns1:lng 4.872466e+00 ;
+    ns1:name "Institut d'Art contemporain"^^xsd:string .
+
+ex:10074 a ex:BicycleStand ;
+    ns1:id "10074"^^xsd:int ;
+    ns1:lat 4.57701e+01 ;
+    ns1:lng 4.87669e+00 ;
+    ns1:name "Zola / Passage Rey"^^xsd:string .
+
+ex:10075 a ex:BicycleStand ;
+    ns1:id "10075"^^xsd:int ;
+    ns1:lat 4.57723e+01 ;
+    ns1:lng 4.865761e+00 ;
+    ns1:name "Gabriel Péri"^^xsd:string .
+
+ex:10079 a ex:BicycleStand ;
+    ns1:id "10079"^^xsd:int ;
+    ns1:lat 4.576811e+01 ;
+    ns1:lng 4.879081e+00 ;
+    ns1:name "Anatole France / Barbusse"^^xsd:string .
+
+ex:10080 a ex:BicycleStand ;
+    ns1:id "10080"^^xsd:int ;
+    ns1:lat 4.57754e+01 ;
+    ns1:lng 4.880263e+00 ;
+    ns1:name "Vaillant / Perroncel"^^xsd:string .
+
+ex:10083 a ex:BicycleStand ;
+    ns1:id "10083"^^xsd:int ;
+    ns1:lat 4.577786e+01 ;
+    ns1:lng 4.884244e+00 ;
+    ns1:name "Château Gaillard / Bienvenus"^^xsd:string .
+
+ex:10084 a ex:BicycleStand ;
+    ns1:id "10084"^^xsd:int ;
+    ns1:lat 4.578351e+01 ;
+    ns1:lng 4.871273e+00 ;
+    ns1:name "Doua / Avenue des Arts"^^xsd:string .
+
+ex:10086 a ex:BicycleStand ;
+    ns1:id "10086"^^xsd:int ;
+    ns1:lat 4.576983e+01 ;
+    ns1:lng 4.889631e+00 ;
+    ns1:name "Anatole France"^^xsd:string .
+
+ex:10087 a ex:BicycleStand ;
+    ns1:id "10087"^^xsd:int ;
+    ns1:lat 4.57606e+01 ;
+    ns1:lng 4.900697e+00 ;
+    ns1:name "Baratin"^^xsd:string .
+
+ex:10088 a ex:BicycleStand ;
+    ns1:id "10088"^^xsd:int ;
+    ns1:lat 4.576608e+01 ;
+    ns1:lng 4.89861e+00 ;
+    ns1:name "4 août 1789 / Pressensé"^^xsd:string .
+
+ex:10089 a ex:BicycleStand ;
+    ns1:id "10089"^^xsd:int ;
+    ns1:lat 4.57745e+01 ;
+    ns1:lng 4.874052e+00 ;
+    ns1:name "Colin / Perroncel"^^xsd:string .
+
+ex:10091 a ex:BicycleStand ;
+    ns1:id "10091"^^xsd:int ;
+    ns1:lat 4.577475e+01 ;
+    ns1:lng 4.887971e+00 ;
+    ns1:name "Château Gaillard / Fort"^^xsd:string .
+
+ex:10092 a ex:BicycleStand ;
+    ns1:id "10092"^^xsd:int ;
+    ns1:lat 4.577155e+01 ;
+    ns1:lng 4.890374e+00 ;
+    ns1:name "Montgolfier / Château Gaillard"^^xsd:string .
+
+ex:10101 a ex:BicycleStand ;
+    ns1:id "10101"^^xsd:int ;
+    ns1:lat 4.577944e+01 ;
+    ns1:lng 4.87409e+00 ;
+    ns1:name "Einstein / 11 novembre 1918"^^xsd:string .
+
+ex:10102 a ex:BicycleStand ;
+    ns1:id "10102"^^xsd:int ;
+    ns1:lat 4.578099e+01 ;
+    ns1:lng 4.871222e+00 ;
+    ns1:name "Doua / Gaston Berger"^^xsd:string .
+
+ex:10103 a ex:BicycleStand ;
+    ns1:id "10103"^^xsd:int ;
+    ns1:lat 4.578449e+01 ;
+    ns1:lng 4.877404e+00 ;
+    ns1:name "Doua / Rue des sports"^^xsd:string .
+
+ex:10110 a ex:BicycleStand ;
+    ns1:id "10110"^^xsd:int ;
+    ns1:lat 4.575958e+01 ;
+    ns1:lng 4.882708e+00 ;
+    ns1:name "Mémoire et Société"^^xsd:string .
+
+ex:10111 a ex:BicycleStand ;
+    ns1:id "10111"^^xsd:int ;
+    ns1:lat 4.577031e+01 ;
+    ns1:lng 4.862002e+00 ;
+    ns1:name "Charles Hernu"^^xsd:string .
+
+ex:10112 a ex:BicycleStand ;
+    ns1:id "10112"^^xsd:int ;
+    ns1:lat 4.575444e+01 ;
+    ns1:lng 4.885349e+00 ;
+    ns1:name "Place de la Reconnaissance"^^xsd:string .
+
+ex:10113 a ex:BicycleStand ;
+    ns1:id "10113"^^xsd:int ;
+    ns1:lat 4.575576e+01 ;
+    ns1:lng 4.89153e+00 ;
+    ns1:name "Gare de Villeurbanne"^^xsd:string .
+
+ex:10114 a ex:BicycleStand ;
+    ns1:id "10114"^^xsd:int ;
+    ns1:lat 4.575791e+01 ;
+    ns1:lng 4.910807e+00 ;
+    ns1:name "Bel Air / Les Brosses"^^xsd:string .
+
+ex:10115 a ex:BicycleStand ;
+    ns1:id "10115"^^xsd:int ;
+    ns1:lat 4.575417e+01 ;
+    ns1:lng 4.905292e+00 ;
+    ns1:name "Place d'Espagne / Stade Kruger"^^xsd:string .
+
+ex:10116 a ex:BicycleStand ;
+    ns1:id "10116"^^xsd:int ;
+    ns1:lat 4.576052e+01 ;
+    ns1:lng 4.905945e+00 ;
+    ns1:name "Blum / Faÿs"^^xsd:string .
+
+ex:10117 a ex:BicycleStand ;
+    ns1:id "10117"^^xsd:int ;
+    ns1:lat 4.576456e+01 ;
+    ns1:lng 4.892334e+00 ;
+    ns1:name "La Perralière"^^xsd:string .
+
+ex:10118 a ex:BicycleStand ;
+    ns1:id "10118"^^xsd:int ;
+    ns1:lat 4.576719e+01 ;
+    ns1:lng 4.900599e+00 ;
+    ns1:name "Voyant / Chambord"^^xsd:string .
+
+ex:10119 a ex:BicycleStand ;
+    ns1:id "10119"^^xsd:int ;
+    ns1:lat 4.578045e+01 ;
+    ns1:lng 4.904489e+00 ;
+    ns1:name "Villeurbanne Saint-Jean"^^xsd:string .
+
+ex:1012 a ex:BicycleStand ;
+    ns1:id "1012"^^xsd:int ;
+    ns1:lat 4.576581e+01 ;
+    ns1:lng 4.836896e+00 ;
+    ns1:name "Ampère / Bourse"^^xsd:string .
+
+ex:10120 a ex:BicycleStand ;
+    ns1:id "10120"^^xsd:int ;
+    ns1:lat 4.577625e+01 ;
+    ns1:lng 4.871637e+00 ;
+    ns1:name "Salengro / Descartes"^^xsd:string .
+
+ex:10121 a ex:BicycleStand ;
+    ns1:id "10121"^^xsd:int ;
+    ns1:lat 4.577191e+01 ;
+    ns1:lng 4.879071e+00 ;
+    ns1:name "Parc du Centre"^^xsd:string .
+
+ex:10122 a ex:BicycleStand ;
+    ns1:id "10122"^^xsd:int ;
+    ns1:lat 4.578405e+01 ;
+    ns1:lng 4.897086e+00 ;
+    ns1:name "Verdun / Desgrand"^^xsd:string .
+
+ex:10123 a ex:BicycleStand ;
+    ns1:id "10123"^^xsd:int ;
+    ns1:lat 4.577664e+01 ;
+    ns1:lng 4.902361e+00 ;
+    ns1:name "Saint Jean / Epi de Blé"^^xsd:string .
+
+ex:10124 a ex:BicycleStand ;
+    ns1:id "10124"^^xsd:int ;
+    ns1:lat 4.57769e+01 ;
+    ns1:lng 4.876459e+00 ;
+    ns1:name "Salengro / Courteline"^^xsd:string .
+
+ex:1013 a ex:BicycleStand ;
+    ns1:id "1013"^^xsd:int ;
+    ns1:lat 4.576822e+01 ;
+    ns1:lng 4.827622e+00 ;
+    ns1:name "Martinière"^^xsd:string .
+
+ex:1016 a ex:BicycleStand ;
+    ns1:id "1016"^^xsd:int ;
+    ns1:lat 4.576595e+01 ;
+    ns1:lng 4.831178e+00 ;
+    ns1:name "Pêcherie"^^xsd:string .
+
+ex:1020 a ex:BicycleStand ;
+    ns1:id "1020"^^xsd:int ;
+    ns1:lat 4.576677e+01 ;
+    ns1:lng 4.832931e+00 ;
+    ns1:name "Terreaux / Chenavard"^^xsd:string .
+
+ex:1021 a ex:BicycleStand ;
+    ns1:id "1021"^^xsd:int ;
+    ns1:lat 4.576704e+01 ;
+    ns1:lng 4.834284e+00 ;
+    ns1:name "Terreaux / Beaux Arts"^^xsd:string .
+
+ex:1022 a ex:BicycleStand ;
+    ns1:id "1022"^^xsd:int ;
+    ns1:lat 4.57696e+01 ;
+    ns1:lng 4.837608e+00 ;
+    ns1:name "Place Tolozan"^^xsd:string .
+
+ex:1023 a ex:BicycleStand ;
+    ns1:id "1023"^^xsd:int ;
+    ns1:lat 4.577225e+01 ;
+    ns1:lng 4.819461e+00 ;
+    ns1:name "Croix Rousse / Perfetti"^^xsd:string .
+
+ex:1024 a ex:BicycleStand ;
+    ns1:id "1024"^^xsd:int ;
+    ns1:lat 4.576966e+01 ;
+    ns1:lng 4.824612e+00 ;
+    ns1:name "Rouville"^^xsd:string .
+
+ex:1031 a ex:BicycleStand ;
+    ns1:id "1031"^^xsd:int ;
+    ns1:lat 4.576802e+01 ;
+    ns1:lng 4.831741e+00 ;
+    ns1:name "Place de la Paix"^^xsd:string .
+
+ex:1032 a ex:BicycleStand ;
+    ns1:id "1032"^^xsd:int ;
+    ns1:lat 4.57672e+01 ;
+    ns1:lng 4.836392e+00 ;
+    ns1:name "Pizay"^^xsd:string .
+
+ex:1034 a ex:BicycleStand ;
+    ns1:id "1034"^^xsd:int ;
+    ns1:lat 4.577e+01 ;
+    ns1:lng 4.82927e+00 ;
+    ns1:name "Carmélites"^^xsd:string .
+
+ex:1035 a ex:BicycleStand ;
+    ns1:id "1035"^^xsd:int ;
+    ns1:lat 4.57722e+01 ;
+    ns1:lng 4.837912e+00 ;
+    ns1:name "Quai Lassagne"^^xsd:string .
+
+ex:1036 a ex:BicycleStand ;
+    ns1:id "1036"^^xsd:int ;
+    ns1:lat 4.577437e+01 ;
+    ns1:lng 4.832815e+00 ;
+    ns1:name "Aveyron"^^xsd:string .
+
+ex:1037 a ex:BicycleStand ;
+    ns1:id "1037"^^xsd:int ;
+    ns1:lat 4.577293e+01 ;
+    ns1:lng 4.83727e+00 ;
+    ns1:name "Chazette Lassagne"^^xsd:string .
+
+ex:11001 a ex:BicycleStand ;
+    ns1:id "11001"^^xsd:int ;
+    ns1:lat 4.578578e+01 ;
+    ns1:lng 4.833713e+00 ;
+    ns1:name "Caluire - Gare de Cuire"^^xsd:string .
+
+ex:11002 a ex:BicycleStand ;
+    ns1:id "11002"^^xsd:int ;
+    ns1:lat 4.578547e+01 ;
+    ns1:lng 4.847842e+00 ;
+    ns1:name "Caluire - Saint-Clair"^^xsd:string .
+
+ex:11003 a ex:BicycleStand ;
+    ns1:id "11003"^^xsd:int ;
+    ns1:lat 4.579167e+01 ;
+    ns1:lng 4.823597e+00 ;
+    ns1:name "Caluire / La Rochette"^^xsd:string .
+
+ex:11004 a ex:BicycleStand ;
+    ns1:id "11004"^^xsd:int ;
+    ns1:lat 4.579159e+01 ;
+    ns1:lng 4.843331e+00 ;
+    ns1:name "Branly / Pasteur"^^xsd:string .
+
+ex:11005 a ex:BicycleStand ;
+    ns1:id "11005"^^xsd:int ;
+    ns1:lat 4.578795e+01 ;
+    ns1:lng 4.853054e+00 ;
+    ns1:name "Caluire - Passerelle de la Paix"^^xsd:string .
+
+ex:12001 a ex:BicycleStand ;
+    ns1:id "12001"^^xsd:int ;
+    ns1:lat 4.576081e+01 ;
+    ns1:lng 4.920604e+00 ;
+    ns1:name "Vaulx - La Soie"^^xsd:string .
+
+ex:12002 a ex:BicycleStand ;
+    ns1:id "12002"^^xsd:int ;
+    ns1:lat 4.57644e+01 ;
+    ns1:lng 4.919276e+00 ;
+    ns1:name "Vaulx - Poudrette / La Soie"^^xsd:string .
+
+ex:12003 a ex:BicycleStand ;
+    ns1:id "12003"^^xsd:int ;
+    ns1:lat 4.575707e+01 ;
+    ns1:lng 4.927322e+00 ;
+    ns1:name "Vaulx - Bibliothèque"^^xsd:string .
+
+ex:12004 a ex:BicycleStand ;
+    ns1:id "12004"^^xsd:int ;
+    ns1:lat 4.577817e+01 ;
+    ns1:lng 4.920517e+00 ;
+    ns1:name "Vaulx - Hôtel de ville"^^xsd:string .
+
+ex:12005 a ex:BicycleStand ;
+    ns1:id "12005"^^xsd:int ;
+    ns1:lat 4.578628e+01 ;
+    ns1:lng 4.926886e+00 ;
+    ns1:name "Place Boissier"^^xsd:string .
+
+ex:13001 a ex:BicycleStand ;
+    ns1:id "13001"^^xsd:int ;
+    ns1:lat 4.577187e+01 ;
+    ns1:lng 4.955767e+00 ;
+    ns1:name "Décines - Centre"^^xsd:string .
+
+ex:14001 a ex:BicycleStand ;
+    ns1:id "14001"^^xsd:int ;
+    ns1:lat 4.574292e+01 ;
+    ns1:lng 4.908621e+00 ;
+    ns1:name "Bron - Centre Nautique"^^xsd:string .
+
+ex:14003 a ex:BicycleStand ;
+    ns1:id "14003"^^xsd:int ;
+    ns1:lat 4.573667e+01 ;
+    ns1:lng 4.9171e+00 ;
+    ns1:name "Bron - Place Curial"^^xsd:string .
+
+ex:14004 a ex:BicycleStand ;
+    ns1:id "14004"^^xsd:int ;
+    ns1:lat 4.573395e+01 ;
+    ns1:lng 4.908721e+00 ;
+    ns1:name "Bron - Mairie"^^xsd:string .
+
+ex:14005 a ex:BicycleStand ;
+    ns1:id "14005"^^xsd:int ;
+    ns1:lat 4.572266e+01 ;
+    ns1:lng 4.915208e+00 ;
+    ns1:name "Bron - Université"^^xsd:string .
+
+ex:15001 a ex:BicycleStand ;
+    ns1:id "15001"^^xsd:int ;
+    ns1:lat 4.571441e+01 ;
+    ns1:lng 4.931014e+00 ;
+    ns1:name "Saint Priest - Parc Technologique"^^xsd:string .
+
+ex:15002 a ex:BicycleStand ;
+    ns1:id "15002"^^xsd:int ;
+    ns1:lat 4.570598e+01 ;
+    ns1:lng 4.900985e+00 ;
+    ns1:name "Saint Priest - Cité Berliet"^^xsd:string .
+
+ex:16001 a ex:BicycleStand ;
+    ns1:id "16001"^^xsd:int ;
+    ns1:lat 4.572575e+01 ;
+    ns1:lng 4.858351e+00 ;
+    ns1:name "Vénissieux - Place Romand"^^xsd:string .
+
+ex:16002 a ex:BicycleStand ;
+    ns1:id "16002"^^xsd:int ;
+    ns1:lat 4.57194e+01 ;
+    ns1:lng 4.854802e+00 ;
+    ns1:name "Vénissieux - Levy - Vienne"^^xsd:string .
+
+ex:16003 a ex:BicycleStand ;
+    ns1:id "16003"^^xsd:int ;
+    ns1:lat 4.571545e+01 ;
+    ns1:lng 4.878235e+00 ;
+    ns1:name "Vénissieux - Joliot Curie / Sembat"^^xsd:string .
+
+ex:16004 a ex:BicycleStand ;
+    ns1:id "16004"^^xsd:int ;
+    ns1:lat 4.571971e+01 ;
+    ns1:lng 4.888535e+00 ;
+    ns1:name "Vénissieux - Parilly"^^xsd:string .
+
+ex:16005 a ex:BicycleStand ;
+    ns1:id "16005"^^xsd:int ;
+    ns1:lat 4.570853e+01 ;
+    ns1:lng 4.887025e+00 ;
+    ns1:name "Vénissieux - Gare"^^xsd:string .
+
+ex:17001 a ex:BicycleStand ;
+    ns1:id "17001"^^xsd:int ;
+    ns1:lat 4.571234e+01 ;
+    ns1:lng 4.855274e+00 ;
+    ns1:name "Saint Fons - Arsenal"^^xsd:string .
+
+ex:17002 a ex:BicycleStand ;
+    ns1:id "17002"^^xsd:int ;
+    ns1:lat 4.570844e+01 ;
+    ns1:lng 4.854861e+00 ;
+    ns1:name "Saint Fons - 4 chemins"^^xsd:string .
+
+ex:17003 a ex:BicycleStand ;
+    ns1:id "17003"^^xsd:int ;
+    ns1:lat 4.570809e+01 ;
+    ns1:lng 4.861776e+00 ;
+    ns1:name "Saint Fons - Théatre"^^xsd:string .
+
+ex:18001 a ex:BicycleStand ;
+    ns1:id "18001"^^xsd:int ;
+    ns1:lat 4.570326e+01 ;
+    ns1:lng 4.8212e+00 ;
+    ns1:name "Pierre Bénite - Europe"^^xsd:string .
+
+ex:19001 a ex:BicycleStand ;
+    ns1:id "19001"^^xsd:int ;
+    ns1:lat 4.569781e+01 ;
+    ns1:lng 4.794773e+00 ;
+    ns1:name "Saint Genis Laval - Médiathèque"^^xsd:string .
+
+ex:20001 a ex:BicycleStand ;
+    ns1:id "20001"^^xsd:int ;
+    ns1:lat 4.571703e+01 ;
+    ns1:lng 4.814136e+00 ;
+    ns1:name "Oullins - Gare"^^xsd:string .
+
+ex:20002 a ex:BicycleStand ;
+    ns1:id "20002"^^xsd:int ;
+    ns1:lat 4.5714e+01 ;
+    ns1:lng 4.806544e+00 ;
+    ns1:name "Oullins - Mairie"^^xsd:string .
+
+ex:20003 a ex:BicycleStand ;
+    ns1:id "20003"^^xsd:int ;
+    ns1:lat 4.572016e+01 ;
+    ns1:lng 4.798332e+00 ;
+    ns1:name "Oullins - Pont Blanc"^^xsd:string .
+
+ex:2001 a ex:BicycleStand ;
+    ns1:id "2001"^^xsd:int ;
+    ns1:lat 4.575799e+01 ;
+    ns1:lng 4.834594e+00 ;
+    ns1:name "Bellecour / République"^^xsd:string .
+
+ex:2002 a ex:BicycleStand ;
+    ns1:id "2002"^^xsd:int ;
+    ns1:lat 4.575816e+01 ;
+    ns1:lng 4.830435e+00 ;
+    ns1:name "Bellecour / Saint Exupéry"^^xsd:string .
+
+ex:2003 a ex:BicycleStand ;
+    ns1:id "2003"^^xsd:int ;
+    ns1:lat 4.575304e+01 ;
+    ns1:lng 4.828246e+00 ;
+    ns1:name "Place Ampère"^^xsd:string .
+
+ex:2004 a ex:BicycleStand ;
+    ns1:id "2004"^^xsd:int ;
+    ns1:lat 4.57501e+01 ;
+    ns1:lng 4.828052e+00 ;
+    ns1:name "Perrache / Carnot"^^xsd:string .
+
+ex:2005 a ex:BicycleStand ;
+    ns1:id "2005"^^xsd:int ;
+    ns1:lat 4.574054e+01 ;
+    ns1:lng 4.81918e+00 ;
+    ns1:name "Confluence Hôtel de Région"^^xsd:string .
+
+ex:2006 a ex:BicycleStand ;
+    ns1:id "2006"^^xsd:int ;
+    ns1:lat 4.574558e+01 ;
+    ns1:lng 4.823533e+00 ;
+    ns1:name "Place de l'Hippodrome"^^xsd:string .
+
+ex:2007 a ex:BicycleStand ;
+    ns1:id "2007"^^xsd:int ;
+    ns1:lat 4.574261e+01 ;
+    ns1:lng 4.820472e+00 ;
+    ns1:name "Patinoire Charlemagne"^^xsd:string .
+
+ex:2008 a ex:BicycleStand ;
+    ns1:id "2008"^^xsd:int ;
+    ns1:lat 4.575676e+01 ;
+    ns1:lng 4.833927e+00 ;
+    ns1:name "Place Antonin Poncet"^^xsd:string .
+
+ex:2009 a ex:BicycleStand ;
+    ns1:id "2009"^^xsd:int ;
+    ns1:lat 4.573963e+01 ;
+    ns1:lng 4.815026e+00 ;
+    ns1:name "Confluence / Docks"^^xsd:string .
+
+ex:2010 a ex:BicycleStand ;
+    ns1:id "2010"^^xsd:int ;
+    ns1:lat 4.574341e+01 ;
+    ns1:lng 4.815854e+00 ;
+    ns1:name "Confluence / Darse"^^xsd:string .
+
+ex:2011 a ex:BicycleStand ;
+    ns1:id "2011"^^xsd:int ;
+    ns1:lat 4.575681e+01 ;
+    ns1:lng 4.828374e+00 ;
+    ns1:name "Sala / Rue du Plat"^^xsd:string .
+
+ex:2012 a ex:BicycleStand ;
+    ns1:id "2012"^^xsd:int ;
+    ns1:lat 4.575345e+01 ;
+    ns1:lng 4.833365e+00 ;
+    ns1:name "Gailleton"^^xsd:string .
+
+ex:2013 a ex:BicycleStand ;
+    ns1:id "2013"^^xsd:int ;
+    ns1:lat 4.575994e+01 ;
+    ns1:lng 4.832072e+00 ;
+    ns1:name "Célestins"^^xsd:string .
+
+ex:2014 a ex:BicycleStand ;
+    ns1:id "2014"^^xsd:int ;
+    ns1:lat 4.576075e+01 ;
+    ns1:lng 4.834304e+00 ;
+    ns1:name "Jacobins"^^xsd:string .
+
+ex:2015 a ex:BicycleStand ;
+    ns1:id "2015"^^xsd:int ;
+    ns1:lat 4.576071e+01 ;
+    ns1:lng 4.836289e+00 ;
+    ns1:name "République / Stella"^^xsd:string .
+
+ex:2016 a ex:BicycleStand ;
+    ns1:id "2016"^^xsd:int ;
+    ns1:lat 4.576308e+01 ;
+    ns1:lng 4.834287e+00 ;
+    ns1:name "Place Regaud"^^xsd:string .
+
+ex:2017 a ex:BicycleStand ;
+    ns1:id "2017"^^xsd:int ;
+    ns1:lat 4.576217e+01 ;
+    ns1:lng 4.835971e+00 ;
+    ns1:name "République / Ferrandière"^^xsd:string .
+
+ex:2018 a ex:BicycleStand ;
+    ns1:id "2018"^^xsd:int ;
+    ns1:lat 4.575742e+01 ;
+    ns1:lng 4.837062e+00 ;
+    ns1:name "Hôtel Dieu / Pont de la Guillotière"^^xsd:string .
+
+ex:2019 a ex:BicycleStand ;
+    ns1:id "2019"^^xsd:int ;
+    ns1:lat 4.573618e+01 ;
+    ns1:lng 4.815335e+00 ;
+    ns1:name "Sucrière"^^xsd:string .
+
+ex:2020 a ex:BicycleStand ;
+    ns1:id "2020"^^xsd:int ;
+    ns1:lat 4.573331e+01 ;
+    ns1:lng 4.81892e+00 ;
+    ns1:name "Musée des Confluences"^^xsd:string .
+
+ex:2021 a ex:BicycleStand ;
+    ns1:id "2021"^^xsd:int ;
+    ns1:lat 4.574592e+01 ;
+    ns1:lng 4.817174e+00 ;
+    ns1:name "Bayard / Rambaud"^^xsd:string .
+
+ex:2022 a ex:BicycleStand ;
+    ns1:id "2022"^^xsd:int ;
+    ns1:lat 4.575123e+01 ;
+    ns1:lng 4.826891e+00 ;
+    ns1:name "Place Carnot"^^xsd:string .
+
+ex:2023 a ex:BicycleStand ;
+    ns1:id "2023"^^xsd:int ;
+    ns1:lat 4.574451e+01 ;
+    ns1:lng 4.826775e+00 ;
+    ns1:name ""^^xsd:string .
+
+ex:2024 a ex:BicycleStand ;
+    ns1:id "2024"^^xsd:int ;
+    ns1:lat 4.575874e+01 ;
+    ns1:lng 4.834077e+00 ;
+    ns1:name "République / Maupin"^^xsd:string .
+
+ex:2025 a ex:BicycleStand ;
+    ns1:id "2025"^^xsd:int ;
+    ns1:lat 4.576206e+01 ;
+    ns1:lng 4.833206e+00 ;
+    ns1:name "Mercière / Ferrandière"^^xsd:string .
+
+ex:2026 a ex:BicycleStand ;
+    ns1:id "2026"^^xsd:int ;
+    ns1:lat 4.575938e+01 ;
+    ns1:lng 4.835399e+00 ;
+    ns1:name "République / Paufique"^^xsd:string .
+
+ex:2027 a ex:BicycleStand ;
+    ns1:id "2027"^^xsd:int ;
+    ns1:lat 4.57461e+01 ;
+    ns1:lng 4.825605e+00 ;
+    ns1:name "Perrache Est"^^xsd:string .
+
+ex:2028 a ex:BicycleStand ;
+    ns1:id "2028"^^xsd:int ;
+    ns1:lat 4.574442e+01 ;
+    ns1:lng 4.822143e+00 ;
+    ns1:name "Sainte-Blandine"^^xsd:string .
+
+ex:2030 a ex:BicycleStand ;
+    ns1:id "2030"^^xsd:int ;
+    ns1:lat 4.576407e+01 ;
+    ns1:lng 4.835525e+00 ;
+    ns1:name "République / Poulaillerie"^^xsd:string .
+
+ex:2035 a ex:BicycleStand ;
+    ns1:id "2035"^^xsd:int ;
+    ns1:lat 4.575989e+01 ;
+    ns1:lng 4.835799e+00 ;
+    ns1:name "Childebert / Rivière"^^xsd:string .
+
+ex:2036 a ex:BicycleStand ;
+    ns1:id "2036"^^xsd:int ;
+    ns1:lat 4.575949e+01 ;
+    ns1:lng 4.83017e+00 ;
+    ns1:name "Place Antonin Gourju"^^xsd:string .
+
+ex:2037 a ex:BicycleStand ;
+    ns1:id "2037"^^xsd:int ;
+    ns1:lat 4.574797e+01 ;
+    ns1:lng 4.824862e+00 ;
+    ns1:name "Place des Archives"^^xsd:string .
+
+ex:2038 a ex:BicycleStand ;
+    ns1:id "2038"^^xsd:int ;
+    ns1:lat 4.575309e+01 ;
+    ns1:lng 4.829807e+00 ;
+    ns1:name "Remparts d'Ainay"^^xsd:string .
+
+ex:2039 a ex:BicycleStand ;
+    ns1:id "2039"^^xsd:int ;
+    ns1:lat 4.574925e+01 ;
+    ns1:lng 4.829844e+00 ;
+    ns1:name "Charité / Récamier"^^xsd:string .
+
+ex:2040 a ex:BicycleStand ;
+    ns1:id "2040"^^xsd:int ;
+    ns1:lat 4.576342e+01 ;
+    ns1:lng 4.832101e+00 ;
+    ns1:name "Saint Antoine / Grenette"^^xsd:string .
+
+ex:2041 a ex:BicycleStand ;
+    ns1:id "2041"^^xsd:int ;
+    ns1:lat 4.575447e+01 ;
+    ns1:lng 4.833011e+00 ;
+    ns1:name "Sala / Charité"^^xsd:string .
+
+ex:2042 a ex:BicycleStand ;
+    ns1:id "2042"^^xsd:int ;
+    ns1:lat 4.575185e+01 ;
+    ns1:lng 4.824734e+00 ;
+    ns1:name "Joffre / Vaubecour"^^xsd:string .
+
+ex:21001 a ex:BicycleStand ;
+    ns1:id "21001"^^xsd:int ;
+    ns1:lat 4.572737e+01 ;
+    ns1:lng 4.814635e+00 ;
+    ns1:name "La Mulatière - Aquarium"^^xsd:string .
+
+ex:22001 a ex:BicycleStand ;
+    ns1:id "22001"^^xsd:int ;
+    ns1:lat 4.574957e+01 ;
+    ns1:lng 4.800896e+00 ;
+    ns1:name "Sainte Foy - Place Saint-Luc"^^xsd:string .
+
+ex:23001 a ex:BicycleStand ;
+    ns1:id "23001"^^xsd:int ;
+    ns1:lat 4.576326e+01 ;
+    ns1:lng 4.77861e+00 ;
+    ns1:name "Tassin - Tuileries"^^xsd:string .
+
+ex:24001 a ex:BicycleStand ;
+    ns1:id "24001"^^xsd:int ;
+    ns1:lat 4.577509e+01 ;
+    ns1:lng 4.778673e+00 ;
+    ns1:name "Ecully - Mairie"^^xsd:string .
+
+ex:25001 a ex:BicycleStand ;
+    ns1:id "25001"^^xsd:int ;
+    ns1:lat 4.579979e+01 ;
+    ns1:lng 4.819602e+00 ;
+    ns1:name "Saint Cyr"^^xsd:string .
+
+ex:26001 a ex:BicycleStand ;
+    ns1:id "26001"^^xsd:int ;
+    ns1:lat 4.579157e+01 ;
+    ns1:lng 4.808535e+00 ;
+    ns1:name "Saint Didier - Pasteur / Saint-Cyr"^^xsd:string .
+
+ex:27001 a ex:BicycleStand ;
+    ns1:id "27001"^^xsd:int ;
+    ns1:lat 4.583087e+01 ;
+    ns1:lng 4.846979e+00 ;
+    ns1:name "Collonges - Gare"^^xsd:string .
+
+ex:28001 a ex:BicycleStand ;
+    ns1:id "28001"^^xsd:int ;
+    ns1:lat 4.583247e+01 ;
+    ns1:lng 4.848779e+00 ;
+    ns1:name "Fontaines S/S - Quai JB Simon"^^xsd:string .
+
+ex:28002 a ex:BicycleStand ;
+    ns1:id "28002"^^xsd:int ;
+    ns1:lat 4.583541e+01 ;
+    ns1:lng 4.8457e+00 ;
+    ns1:name "Fontaines S/S - Gambetta"^^xsd:string .
+
+ex:30001 a ex:BicycleStand ;
+    ns1:id "30001"^^xsd:int ;
+    ns1:lat 4.580509e+01 ;
+    ns1:lng 4.884744e+00 ;
+    ns1:name "Rillieux - Canellas"^^xsd:string .
+
+ex:30002 a ex:BicycleStand ;
+    ns1:id "30002"^^xsd:int ;
+    ns1:lat 4.581597e+01 ;
+    ns1:lng 4.887043e+00 ;
+    ns1:name "Rillieux - Loup Pendu"^^xsd:string .
+
+ex:3003 a ex:BicycleStand ;
+    ns1:id "3003"^^xsd:int ;
+    ns1:lat 4.576298e+01 ;
+    ns1:lng 4.855007e+00 ;
+    ns1:name "Part-Dieu / Deruelle"^^xsd:string .
+
+ex:3004 a ex:BicycleStand ;
+    ns1:id "3004"^^xsd:int ;
+    ns1:lat 4.575965e+01 ;
+    ns1:lng 4.848267e+00 ;
+    ns1:name "Bourse du travail"^^xsd:string .
+
+ex:3005 a ex:BicycleStand ;
+    ns1:id "3005"^^xsd:int ;
+    ns1:lat 4.575379e+01 ;
+    ns1:lng 4.848042e+00 ;
+    ns1:name "Saxe / Gambetta"^^xsd:string .
+
+ex:3006 a ex:BicycleStand ;
+    ns1:id "3006"^^xsd:int ;
+    ns1:lat 4.576286e+01 ;
+    ns1:lng 4.862287e+00 ;
+    ns1:name "Villette / St-Antoine"^^xsd:string .
+
+ex:3007 a ex:BicycleStand ;
+    ns1:id "3007"^^xsd:int ;
+    ns1:lat 4.574342e+01 ;
+    ns1:lng 4.878921e+00 ;
+    ns1:name "Place d'Arsonval"^^xsd:string .
+
+ex:3008 a ex:BicycleStand ;
+    ns1:id "3008"^^xsd:int ;
+    ns1:lat 4.574583e+01 ;
+    ns1:lng 4.870639e+00 ;
+    ns1:name "Institut Lumière"^^xsd:string .
+
+ex:3009 a ex:BicycleStand ;
+    ns1:id "3009"^^xsd:int ;
+    ns1:lat 4.575025e+01 ;
+    ns1:lng 4.857925e+00 ;
+    ns1:name "Musée Africain"^^xsd:string .
+
+ex:3011 a ex:BicycleStand ;
+    ns1:id "3011"^^xsd:int ;
+    ns1:lat 4.57599e+01 ;
+    ns1:lng 4.857573e+00 ;
+    ns1:name "Part-Dieu / Cuirassiers"^^xsd:string .
+
+ex:3012 a ex:BicycleStand ;
+    ns1:id "3012"^^xsd:int ;
+    ns1:lat 4.574952e+01 ;
+    ns1:lng 4.887286e+00 ;
+    ns1:name "Place du Château"^^xsd:string .
+
+ex:3013 a ex:BicycleStand ;
+    ns1:id "3013"^^xsd:int ;
+    ns1:lat 4.575365e+01 ;
+    ns1:lng 4.889242e+00 ;
+    ns1:name "Place Antoinette"^^xsd:string .
+
+ex:3015 a ex:BicycleStand ;
+    ns1:id "3015"^^xsd:int ;
+    ns1:lat 4.576078e+01 ;
+    ns1:lng 4.852679e+00 ;
+    ns1:name "Servient / Garibaldi"^^xsd:string .
+
+ex:3016 a ex:BicycleStand ;
+    ns1:id "3016"^^xsd:int ;
+    ns1:lat 4.575934e+01 ;
+    ns1:lng 4.842228e+00 ;
+    ns1:name "Liberté / Part-Dieu"^^xsd:string .
+
+ex:3017 a ex:BicycleStand ;
+    ns1:id "3017"^^xsd:int ;
+    ns1:lat 4.576092e+01 ;
+    ns1:lng 4.845194e+00 ;
+    ns1:name "Saxe / Dunoir"^^xsd:string .
+
+ex:3018 a ex:BicycleStand ;
+    ns1:id "3018"^^xsd:int ;
+    ns1:lat 4.57567e+01 ;
+    ns1:lng 4.848403e+00 ;
+    ns1:name "Créqui / Voltaire"^^xsd:string .
+
+ex:3021 a ex:BicycleStand ;
+    ns1:id "3021"^^xsd:int ;
+    ns1:lat 4.575947e+01 ;
+    ns1:lng 4.869343e+00 ;
+    ns1:name "Place de la Ferrandière"^^xsd:string .
+
+ex:3024 a ex:BicycleStand ;
+    ns1:id "3024"^^xsd:int ;
+    ns1:lat 4.574133e+01 ;
+    ns1:lng 4.885541e+00 ;
+    ns1:name "Rockfeller / Esquirol"^^xsd:string .
+
+ex:3029 a ex:BicycleStand ;
+    ns1:id "3029"^^xsd:int ;
+    ns1:lat 4.5753e+01 ;
+    ns1:lng 4.850247e+00 ;
+    ns1:name "Place Aristide Briand"^^xsd:string .
+
+ex:3031 a ex:BicycleStand ;
+    ns1:id "3031"^^xsd:int ;
+    ns1:lat 4.575998e+01 ;
+    ns1:lng 4.84449e+00 ;
+    ns1:name "Corneille / Servient"^^xsd:string .
+
+ex:3034 a ex:BicycleStand ;
+    ns1:id "3034"^^xsd:int ;
+    ns1:lat 4.575471e+01 ;
+    ns1:lng 4.853404e+00 ;
+    ns1:name "Garibaldi / Pensionnat"^^xsd:string .
+
+ex:3035 a ex:BicycleStand ;
+    ns1:id "3035"^^xsd:int ;
+    ns1:lat 4.575261e+01 ;
+    ns1:lng 4.858771e+00 ;
+    ns1:name "Philomène Magnin"^^xsd:string .
+
+ex:3036 a ex:BicycleStand ;
+    ns1:id "3036"^^xsd:int ;
+    ns1:lat 4.575381e+01 ;
+    ns1:lng 4.859856e+00 ;
+    ns1:name "Félix Faure / Vivier Merle"^^xsd:string .
+
+ex:3037 a ex:BicycleStand ;
+    ns1:id "3037"^^xsd:int ;
+    ns1:lat 4.57571e+01 ;
+    ns1:lng 4.853481e+00 ;
+    ns1:name "Paul Bert / Garibaldi"^^xsd:string .
+
+ex:3038 a ex:BicycleStand ;
+    ns1:id "3038"^^xsd:int ;
+    ns1:lat 4.575723e+01 ;
+    ns1:lng 4.858908e+00 ;
+    ns1:name "Vivier Merle / Paul Bert Est"^^xsd:string .
+
+ex:3039 a ex:BicycleStand ;
+    ns1:id "3039"^^xsd:int ;
+    ns1:lat 4.575259e+01 ;
+    ns1:lng 4.85571e+00 ;
+    ns1:name "Place Bir-Hakeim"^^xsd:string .
+
+ex:3040 a ex:BicycleStand ;
+    ns1:id "3040"^^xsd:int ;
+    ns1:lat 4.575352e+01 ;
+    ns1:lng 4.857738e+00 ;
+    ns1:name "Faure / Danton"^^xsd:string .
+
+ex:3043 a ex:BicycleStand ;
+    ns1:id "3043"^^xsd:int ;
+    ns1:lat 4.575396e+01 ;
+    ns1:lng 4.867353e+00 ;
+    ns1:name "Place Rouget de L'Isle"^^xsd:string .
+
+ex:3044 a ex:BicycleStand ;
+    ns1:id "3044"^^xsd:int ;
+    ns1:lat 4.576197e+01 ;
+    ns1:lng 4.841053e+00 ;
+    ns1:name "Quai Augagneur"^^xsd:string .
+
+ex:3050 a ex:BicycleStand ;
+    ns1:id "3050"^^xsd:int ;
+    ns1:lat 4.574832e+01 ;
+    ns1:lng 4.875924e+00 ;
+    ns1:name "Friche RVI"^^xsd:string .
+
+ex:3051 a ex:BicycleStand ;
+    ns1:id "3051"^^xsd:int ;
+    ns1:lat 4.574819e+01 ;
+    ns1:lng 4.880594e+00 ;
+    ns1:name "Place Henri"^^xsd:string .
+
+ex:3053 a ex:BicycleStand ;
+    ns1:id "3053"^^xsd:int ;
+    ns1:lat 4.575111e+01 ;
+    ns1:lng 4.855585e+00 ;
+    ns1:name "Gambetta / Jusserand"^^xsd:string .
+
+ex:3058 a ex:BicycleStand ;
+    ns1:id "3058"^^xsd:int ;
+    ns1:lat 4.575889e+01 ;
+    ns1:lng 4.853768e+00 ;
+    ns1:name "Place du Lac"^^xsd:string .
+
+ex:3066 a ex:BicycleStand ;
+    ns1:id "3066"^^xsd:int ;
+    ns1:lat 4.57543e+01 ;
+    ns1:lng 4.863464e+00 ;
+    ns1:name "Kimmerling - Faure"^^xsd:string .
+
+ex:3067 a ex:BicycleStand ;
+    ns1:id "3067"^^xsd:int ;
+    ns1:lat 4.575292e+01 ;
+    ns1:lng 4.863853e+00 ;
+    ns1:name "Hachette"^^xsd:string .
+
+ex:3068 a ex:BicycleStand ;
+    ns1:id "3068"^^xsd:int ;
+    ns1:lat 4.575506e+01 ;
+    ns1:lng 4.871397e+00 ;
+    ns1:name "Faure / Meynis"^^xsd:string .
+
+ex:3069 a ex:BicycleStand ;
+    ns1:id "3069"^^xsd:int ;
+    ns1:lat 4.574995e+01 ;
+    ns1:lng 4.86465e+00 ;
+    ns1:name "Dauphiné / Saint-Maximin"^^xsd:string .
+
+ex:3070 a ex:BicycleStand ;
+    ns1:id "3070"^^xsd:int ;
+    ns1:lat 4.574782e+01 ;
+    ns1:lng 4.87227e+00 ;
+    ns1:name "Rebatel / Saint-Maximin"^^xsd:string .
+
+ex:3071 a ex:BicycleStand ;
+    ns1:id "3071"^^xsd:int ;
+    ns1:lat 4.574049e+01 ;
+    ns1:lng 4.888083e+00 ;
+    ns1:name "BioParc"^^xsd:string .
+
+ex:3079 a ex:BicycleStand ;
+    ns1:id "3079"^^xsd:int ;
+    ns1:lat 4.575121e+01 ;
+    ns1:lng 4.88482e+00 ;
+    ns1:name "Place Louise"^^xsd:string .
+
+ex:3080 a ex:BicycleStand ;
+    ns1:id "3080"^^xsd:int ;
+    ns1:lat 4.576006e+01 ;
+    ns1:lng 4.861674e+00 ;
+    ns1:name "Part-Dieu / Villette"^^xsd:string .
+
+ex:3081 a ex:BicycleStand ;
+    ns1:id "3081"^^xsd:int ;
+    ns1:lat 4.576061e+01 ;
+    ns1:lng 4.863086e+00 ;
+    ns1:name "Part-Dieu / Francfort"^^xsd:string .
+
+ex:3082 a ex:BicycleStand ;
+    ns1:id "3082"^^xsd:int ;
+    ns1:lat 4.575756e+01 ;
+    ns1:lng 4.846118e+00 ;
+    ns1:name "Saxe / Moncey"^^xsd:string .
+
+ex:3083 a ex:BicycleStand ;
+    ns1:id "3083"^^xsd:int ;
+    ns1:lat 4.576159e+01 ;
+    ns1:lng 4.850481e+00 ;
+    ns1:name "Les Halles"^^xsd:string .
+
+ex:3084 a ex:BicycleStand ;
+    ns1:id "3084"^^xsd:int ;
+    ns1:lat 4.575726e+01 ;
+    ns1:lng 4.855201e+00 ;
+    ns1:name "Desaix"^^xsd:string .
+
+ex:3085 a ex:BicycleStand ;
+    ns1:id "3085"^^xsd:int ;
+    ns1:lat 4.575786e+01 ;
+    ns1:lng 4.868351e+00 ;
+    ns1:name "Sacré Coeur"^^xsd:string .
+
+ex:3086 a ex:BicycleStand ;
+    ns1:id "3086"^^xsd:int ;
+    ns1:lat 4.574956e+01 ;
+    ns1:lng 4.875933e+00 ;
+    ns1:name "Feuillat / Lacassagne"^^xsd:string .
+
+ex:3087 a ex:BicycleStand ;
+    ns1:id "3087"^^xsd:int ;
+    ns1:lat 4.576275e+01 ;
+    ns1:lng 4.852428e+00 ;
+    ns1:name "Part-Dieu / Garibaldi"^^xsd:string .
+
+ex:3088 a ex:BicycleStand ;
+    ns1:id "3088"^^xsd:int ;
+    ns1:lat 4.575882e+01 ;
+    ns1:lng 4.846453e+00 ;
+    ns1:name "Place Guichard"^^xsd:string .
+
+ex:3089 a ex:BicycleStand ;
+    ns1:id "3089"^^xsd:int ;
+    ns1:lat 4.57453e+01 ;
+    ns1:lng 4.889042e+00 ;
+    ns1:name "Trarieux / Lacassagne"^^xsd:string .
+
+ex:3090 a ex:BicycleStand ;
+    ns1:id "3090"^^xsd:int ;
+    ns1:lat 4.574191e+01 ;
+    ns1:lng 4.893959e+00 ;
+    ns1:name "Vinatier"^^xsd:string .
+
+ex:3091 a ex:BicycleStand ;
+    ns1:id "3091"^^xsd:int ;
+    ns1:lat 4.574818e+01 ;
+    ns1:lng 4.896957e+00 ;
+    ns1:name "Hôpital Neurologique"^^xsd:string .
+
+ex:3094 a ex:BicycleStand ;
+    ns1:id "3094"^^xsd:int ;
+    ns1:lat 4.575779e+01 ;
+    ns1:lng 4.861497e+00 ;
+    ns1:name "Villette"^^xsd:string .
+
+ex:3097 a ex:BicycleStand ;
+    ns1:id "3097"^^xsd:int ;
+    ns1:lat 4.57572e+01 ;
+    ns1:lng 4.840499e+00 ;
+    ns1:name "Augagneur / Fosse aux Ours"^^xsd:string .
+
+ex:3099 a ex:BicycleStand ;
+    ns1:id "3099"^^xsd:int ;
+    ns1:lat 4.575705e+01 ;
+    ns1:lng 4.865332e+00 ;
+    ns1:name "Place Sainte Anne"^^xsd:string .
+
+ex:3100 a ex:BicycleStand ;
+    ns1:id "3100"^^xsd:int ;
+    ns1:lat 4.575283e+01 ;
+    ns1:lng 4.868769e+00 ;
+    ns1:name "Sisley /  Dauphiné"^^xsd:string .
+
+ex:3101 a ex:BicycleStand ;
+    ns1:id "3101"^^xsd:int ;
+    ns1:lat 4.576205e+01 ;
+    ns1:lng 4.8685e+00 ;
+    ns1:name "Patinoire Baraban"^^xsd:string .
+
+ex:3102 a ex:BicycleStand ;
+    ns1:id "3102"^^xsd:int ;
+    ns1:lat 4.575254e+01 ;
+    ns1:lng 4.894267e+00 ;
+    ns1:name "Docteur Long / Aubépins"^^xsd:string .
+
+ex:3103 a ex:BicycleStand ;
+    ns1:id "3103"^^xsd:int ;
+    ns1:lat 4.575481e+01 ;
+    ns1:lng 4.857574e+00 ;
+    ns1:name "Place Danton"^^xsd:string .
+
+ex:3138 a ex:BicycleStand ;
+    ns1:id "3138"^^xsd:int ;
+    ns1:lat 4.575734e+01 ;
+    ns1:lng 4.858512e+00 ;
+    ns1:name "Vivier Merle / Paul Bert Ouest"^^xsd:string .
+
+ex:32001 a ex:BicycleStand ;
+    ns1:id "32001"^^xsd:int ;
+    ns1:lat 4.5846e+01 ;
+    ns1:lng 4.832412e+00 ;
+    ns1:name "Couzon - Centre"^^xsd:string .
+
+ex:33001 a ex:BicycleStand ;
+    ns1:id "33001"^^xsd:int ;
+    ns1:lat 4.587499e+01 ;
+    ns1:lng 4.833002e+00 ;
+    ns1:name "Albigny - Gare"^^xsd:string .
+
+ex:34001 a ex:BicycleStand ;
+    ns1:id "34001"^^xsd:int ;
+    ns1:lat 4.587661e+01 ;
+    ns1:lng 4.838624e+00 ;
+    ns1:name "Neuville - Quai Pasteur"^^xsd:string .
+
+ex:34002 a ex:BicycleStand ;
+    ns1:id "34002"^^xsd:int ;
+    ns1:lat 4.587088e+01 ;
+    ns1:lng 4.839599e+00 ;
+    ns1:name "Neuville - Stade"^^xsd:string .
+
+ex:4001 a ex:BicycleStand ;
+    ns1:id "4001"^^xsd:int ;
+    ns1:lat 4.577039e+01 ;
+    ns1:lng 4.814246e+00 ;
+    ns1:name "Conservatoire bis"^^xsd:string .
+
+ex:4002 a ex:BicycleStand ;
+    ns1:id "4002"^^xsd:int ;
+    ns1:lat 4.57742e+01 ;
+    ns1:lng 4.827765e+00 ;
+    ns1:name "Mairie du 4e"^^xsd:string .
+
+ex:4003 a ex:BicycleStand ;
+    ns1:id "4003"^^xsd:int ;
+    ns1:lat 4.577973e+01 ;
+    ns1:lng 4.834707e+00 ;
+    ns1:name "Place Commandant Arnaud"^^xsd:string .
+
+ex:4004 a ex:BicycleStand ;
+    ns1:id "4004"^^xsd:int ;
+    ns1:lat 4.577976e+01 ;
+    ns1:lng 4.827648e+00 ;
+    ns1:name "Hénon"^^xsd:string .
+
+ex:4005 a ex:BicycleStand ;
+    ns1:id "4005"^^xsd:int ;
+    ns1:lat 4.577762e+01 ;
+    ns1:lng 4.834501e+00 ;
+    ns1:name "Place Bertone"^^xsd:string .
+
+ex:4006 a ex:BicycleStand ;
+    ns1:id "4006"^^xsd:int ;
+    ns1:lat 4.577348e+01 ;
+    ns1:lng 4.821308e+00 ;
+    ns1:name "Philippe de Lassalle"^^xsd:string .
+
+ex:4007 a ex:BicycleStand ;
+    ns1:id "4007"^^xsd:int ;
+    ns1:lat 4.577933e+01 ;
+    ns1:lng 4.820303e+00 ;
+    ns1:name "Place Flammarion"^^xsd:string .
+
+ex:4008 a ex:BicycleStand ;
+    ns1:id "4008"^^xsd:int ;
+    ns1:lat 4.578264e+01 ;
+    ns1:lng 4.825559e+00 ;
+    ns1:name "Clos Savaron"^^xsd:string .
+
+ex:4009 a ex:BicycleStand ;
+    ns1:id "4009"^^xsd:int ;
+    ns1:lat 4.57759e+01 ;
+    ns1:lng 4.825379e+00 ;
+    ns1:name "Jacquart / Denfert-Rochereau"^^xsd:string .
+
+ex:4011 a ex:BicycleStand ;
+    ns1:id "4011"^^xsd:int ;
+    ns1:lat 4.578158e+01 ;
+    ns1:lng 4.832858e+00 ;
+    ns1:name "Place Joannès Ambre"^^xsd:string .
+
+ex:4012 a ex:BicycleStand ;
+    ns1:id "4012"^^xsd:int ;
+    ns1:lat 4.577877e+01 ;
+    ns1:lng 4.84107e+00 ;
+    ns1:name "Place Adrien Godien"^^xsd:string .
+
+ex:4014 a ex:BicycleStand ;
+    ns1:id "4014"^^xsd:int ;
+    ns1:lat 4.577742e+01 ;
+    ns1:lng 4.820538e+00 ;
+    ns1:name "Philippe de Lassalle / Pillement"^^xsd:string .
+
+ex:4017 a ex:BicycleStand ;
+    ns1:id "4017"^^xsd:int ;
+    ns1:lat 4.577603e+01 ;
+    ns1:lng 4.829621e+00 ;
+    ns1:name "Place des tapis"^^xsd:string .
+
+ex:4021 a ex:BicycleStand ;
+    ns1:id "4021"^^xsd:int ;
+    ns1:lat 4.577408e+01 ;
+    ns1:lng 4.82516e+00 ;
+    ns1:name "Tabareau"^^xsd:string .
+
+ex:4022 a ex:BicycleStand ;
+    ns1:id "4022"^^xsd:int ;
+    ns1:lat 4.577608e+01 ;
+    ns1:lng 4.832554e+00 ;
+    ns1:name "Place de la Croix-Rousse"^^xsd:string .
+
+ex:4023 a ex:BicycleStand ;
+    ns1:id "4023"^^xsd:int ;
+    ns1:lat 4.577828e+01 ;
+    ns1:lng 4.810632e+00 ;
+    ns1:name "Pont Masaryk"^^xsd:string .
+
+ex:4024 a ex:BicycleStand ;
+    ns1:id "4024"^^xsd:int ;
+    ns1:lat 4.578817e+01 ;
+    ns1:lng 4.81856e+00 ;
+    ns1:name "Lyon Métropole"^^xsd:string .
+
+ex:4025 a ex:BicycleStand ;
+    ns1:id "4025"^^xsd:int ;
+    ns1:lat 4.577542e+01 ;
+    ns1:lng 4.81789e+00 ;
+    ns1:name "Chazière"^^xsd:string .
+
+ex:4026 a ex:BicycleStand ;
+    ns1:id "4026"^^xsd:int ;
+    ns1:lat 4.577463e+01 ;
+    ns1:lng 4.813416e+00 ;
+    ns1:name "Birmingham"^^xsd:string .
+
+ex:4041 a ex:BicycleStand ;
+    ns1:id "4041"^^xsd:int ;
+    ns1:lat 4.57755e+01 ;
+    ns1:lng 4.835063e+00 ;
+    ns1:name "Boussange / Austerlitz"^^xsd:string .
+
+ex:4042 a ex:BicycleStand ;
+    ns1:id "4042"^^xsd:int ;
+    ns1:lat 4.57817e+01 ;
+    ns1:lng 4.8206e+00 ;
+    ns1:name "Grégory Coupet"^^xsd:string .
+
+ex:5001 a ex:BicycleStand ;
+    ns1:id "5001"^^xsd:int ;
+    ns1:lat 4.57573e+01 ;
+    ns1:lng 4.81509e+00 ;
+    ns1:name "Place Varillon (funiculaire St-Just)"^^xsd:string .
+
+ex:5002 a ex:BicycleStand ;
+    ns1:id "5002"^^xsd:int ;
+    ns1:lat 4.575653e+01 ;
+    ns1:lng 4.796612e+00 ;
+    ns1:name "Place des Compagnons de la chanson"^^xsd:string .
+
+ex:5004 a ex:BicycleStand ;
+    ns1:id "5004"^^xsd:int ;
+    ns1:lat 4.576048e+01 ;
+    ns1:lng 4.826565e+00 ;
+    ns1:name "Saint-Jean"^^xsd:string .
+
+ex:5005 a ex:BicycleStand ;
+    ns1:id "5005"^^xsd:int ;
+    ns1:lat 4.576627e+01 ;
+    ns1:lng 4.827432e+00 ;
+    ns1:name "Saint-Paul"^^xsd:string .
+
+ex:5006 a ex:BicycleStand ;
+    ns1:id "5006"^^xsd:int ;
+    ns1:lat 4.576204e+01 ;
+    ns1:lng 4.82889e+00 ;
+    ns1:name "Quai Romain Rolland"^^xsd:string .
+
+ex:5007 a ex:BicycleStand ;
+    ns1:id "5007"^^xsd:int ;
+    ns1:lat 4.575791e+01 ;
+    ns1:lng 4.813135e+00 ;
+    ns1:name "Place de Trion"^^xsd:string .
+
+ex:5008 a ex:BicycleStand ;
+    ns1:id "5008"^^xsd:int ;
+    ns1:lat 4.575495e+01 ;
+    ns1:lng 4.812421e+00 ;
+    ns1:name "Sainte-Irénée"^^xsd:string .
+
+ex:5009 a ex:BicycleStand ;
+    ns1:id "5009"^^xsd:int ;
+    ns1:lat 4.576468e+01 ;
+    ns1:lng 4.828983e+00 ;
+    ns1:name "Place Ennemond Fousseret"^^xsd:string .
+
+ex:5015 a ex:BicycleStand ;
+    ns1:id "5015"^^xsd:int ;
+    ns1:lat 4.5752e+01 ;
+    ns1:lng 4.821662e+00 ;
+    ns1:name "Fulchiron"^^xsd:string .
+
+ex:5016 a ex:BicycleStand ;
+    ns1:id "5016"^^xsd:int ;
+    ns1:lat 4.575619e+01 ;
+    ns1:lng 4.802711e+00 ;
+    ns1:name "Point du Jour / Granges"^^xsd:string .
+
+ex:5026 a ex:BicycleStand ;
+    ns1:id "5026"^^xsd:int ;
+    ns1:lat 4.576338e+01 ;
+    ns1:lng 4.829011e+00 ;
+    ns1:name "Rue de la Baleine"^^xsd:string .
+
+ex:5029 a ex:BicycleStand ;
+    ns1:id "5029"^^xsd:int ;
+    ns1:lat 4.576705e+01 ;
+    ns1:lng 4.827048e+00 ;
+    ns1:name "Place Gerson"^^xsd:string .
+
+ex:5030 a ex:BicycleStand ;
+    ns1:id "5030"^^xsd:int ;
+    ns1:lat 4.575503e+01 ;
+    ns1:lng 4.807785e+00 ;
+    ns1:name "Charcot / Résidence universitaire"^^xsd:string .
+
+ex:5031 a ex:BicycleStand ;
+    ns1:id "5031"^^xsd:int ;
+    ns1:lat 4.575464e+01 ;
+    ns1:lng 4.788149e+00 ;
+    ns1:name "Ménival / Joliot Curie"^^xsd:string .
+
+ex:5032 a ex:BicycleStand ;
+    ns1:id "5032"^^xsd:int ;
+    ns1:lat 4.575676e+01 ;
+    ns1:lng 4.783246e+00 ;
+    ns1:name "Ménival / Eisenhower"^^xsd:string .
+
+ex:5036 a ex:BicycleStand ;
+    ns1:id "5036"^^xsd:int ;
+    ns1:lat 4.574962e+01 ;
+    ns1:lng 4.795531e+00 ;
+    ns1:name "La Salette"^^xsd:string .
+
+ex:5040 a ex:BicycleStand ;
+    ns1:id "5040"^^xsd:int ;
+    ns1:lat 4.575784e+01 ;
+    ns1:lng 4.826105e+00 ;
+    ns1:name "Place Crépu"^^xsd:string .
+
+ex:5041 a ex:BicycleStand ;
+    ns1:id "5041"^^xsd:int ;
+    ns1:lat 4.576658e+01 ;
+    ns1:lng 4.82023e+00 ;
+    ns1:name "L'Homme de la Roche"^^xsd:string .
+
+ex:5044 a ex:BicycleStand ;
+    ns1:id "5044"^^xsd:int ;
+    ns1:lat 4.576008e+01 ;
+    ns1:lng 4.798408e+00 ;
+    ns1:name "Champvert"^^xsd:string .
+
+ex:5045 a ex:BicycleStand ;
+    ns1:id "5045"^^xsd:int ;
+    ns1:lat 4.575048e+01 ;
+    ns1:lng 4.788774e+00 ;
+    ns1:name "Valdo / Rivet"^^xsd:string .
+
+ex:5047 a ex:BicycleStand ;
+    ns1:id "5047"^^xsd:int ;
+    ns1:lat 4.575344e+01 ;
+    ns1:lng 4.804401e+00 ;
+    ns1:name "Albéric Pont"^^xsd:string .
+
+ex:5050 a ex:BicycleStand ;
+    ns1:id "5050"^^xsd:int ;
+    ns1:lat 4.575836e+01 ;
+    ns1:lng 4.821087e+00 ;
+    ns1:name "Théâtre Romain"^^xsd:string .
+
+ex:5053 a ex:BicycleStand ;
+    ns1:id "5053"^^xsd:int ;
+    ns1:lat 4.575597e+01 ;
+    ns1:lng 4.818906e+00 ;
+    ns1:name "Saint-Just"^^xsd:string .
+
+ex:5054 a ex:BicycleStand ;
+    ns1:id "5054"^^xsd:int ;
+    ns1:lat 4.57639e+01 ;
+    ns1:lng 4.792714e+00 ;
+    ns1:name "Champvert"^^xsd:string .
+
+ex:5055 a ex:BicycleStand ;
+    ns1:id "5055"^^xsd:int ;
+    ns1:lat 4.576201e+01 ;
+    ns1:lng 4.80276e+00 ;
+    ns1:name "Buyer / Apollinaire"^^xsd:string .
+
+ex:6001 a ex:BicycleStand ;
+    ns1:id "6001"^^xsd:int ;
+    ns1:lat 4.576691e+01 ;
+    ns1:lng 4.858992e+00 ;
+    ns1:name "Gare des Brotteaux"^^xsd:string .
+
+ex:6002 a ex:BicycleStand ;
+    ns1:id "6002"^^xsd:int ;
+    ns1:lat 4.577749e+01 ;
+    ns1:lng 4.844871e+00 ;
+    ns1:name "Porte des Enfants du Rhône"^^xsd:string .
+
+ex:6003 a ex:BicycleStand ;
+    ns1:id "6003"^^xsd:int ;
+    ns1:lat 4.577291e+01 ;
+    ns1:lng 4.856327e+00 ;
+    ns1:name "Avenue Verguin"^^xsd:string .
+
+ex:6004 a ex:BicycleStand ;
+    ns1:id "6004"^^xsd:int ;
+    ns1:lat 4.576885e+01 ;
+    ns1:lng 4.844765e+00 ;
+    ns1:name "Foch"^^xsd:string .
+
+ex:6005 a ex:BicycleStand ;
+    ns1:id "6005"^^xsd:int ;
+    ns1:lat 4.576577e+01 ;
+    ns1:lng 4.844732e+00 ;
+    ns1:name "Place Edgar Quinet"^^xsd:string .
+
+ex:6006 a ex:BicycleStand ;
+    ns1:id "6006"^^xsd:int ;
+    ns1:lat 4.577333e+01 ;
+    ns1:lng 4.851989e+00 ;
+    ns1:name "Boulevard des Belges"^^xsd:string .
+
+ex:6007 a ex:BicycleStand ;
+    ns1:id "6007"^^xsd:int ;
+    ns1:lat 4.576966e+01 ;
+    ns1:lng 4.852373e+00 ;
+    ns1:name "Masséna"^^xsd:string .
+
+ex:6008 a ex:BicycleStand ;
+    ns1:id "6008"^^xsd:int ;
+    ns1:lat 4.576841e+01 ;
+    ns1:lng 4.859071e+00 ;
+    ns1:name "Place Jules Ferry"^^xsd:string .
+
+ex:6011 a ex:BicycleStand ;
+    ns1:id "6011"^^xsd:int ;
+    ns1:lat 4.57684e+01 ;
+    ns1:lng 4.849497e+00 ;
+    ns1:name "Mairie du 6e"^^xsd:string .
+
+ex:6012 a ex:BicycleStand ;
+    ns1:id "6012"^^xsd:int ;
+    ns1:lat 4.577176e+01 ;
+    ns1:lng 4.844604e+00 ;
+    ns1:name "Place Puvis de Chavannes"^^xsd:string .
+
+ex:6016 a ex:BicycleStand ;
+    ns1:id "6016"^^xsd:int ;
+    ns1:lat 4.576599e+01 ;
+    ns1:lng 4.862092e+00 ;
+    ns1:name "Viabert / Thiers"^^xsd:string .
+
+ex:6017 a ex:BicycleStand ;
+    ns1:id "6017"^^xsd:int ;
+    ns1:lat 4.576394e+01 ;
+    ns1:lng 4.865913e+00 ;
+    ns1:name "Lafayette / Inkermann"^^xsd:string .
+
+ex:6020 a ex:BicycleStand ;
+    ns1:id "6020"^^xsd:int ;
+    ns1:lat 4.57745e+01 ;
+    ns1:lng 4.848477e+00 ;
+    ns1:name "Musée Guimet"^^xsd:string .
+
+ex:6021 a ex:BicycleStand ;
+    ns1:id "6021"^^xsd:int ;
+    ns1:lat 4.57707e+01 ;
+    ns1:lng 4.849936e+00 ;
+    ns1:name "Garibaldi"^^xsd:string .
+
+ex:6022 a ex:BicycleStand ;
+    ns1:id "6022"^^xsd:int ;
+    ns1:lat 4.576937e+01 ;
+    ns1:lng 4.842318e+00 ;
+    ns1:name "Place Maréchal Lyautey"^^xsd:string .
+
+ex:6023 a ex:BicycleStand ;
+    ns1:id "6023"^^xsd:int ;
+    ns1:lat 4.576683e+01 ;
+    ns1:lng 4.841139e+00 ;
+    ns1:name "Quai Sarrail"^^xsd:string .
+
+ex:6024 a ex:BicycleStand ;
+    ns1:id "6024"^^xsd:int ;
+    ns1:lat 4.577074e+01 ;
+    ns1:lng 4.856752e+00 ;
+    ns1:name "Tronchet / Anatole France"^^xsd:string .
+
+ex:6025 a ex:BicycleStand ;
+    ns1:id "6025"^^xsd:int ;
+    ns1:lat 4.577319e+01 ;
+    ns1:lng 4.841959e+00 ;
+    ns1:name "Place d'Helvétie"^^xsd:string .
+
+ex:6028 a ex:BicycleStand ;
+    ns1:id "6028"^^xsd:int ;
+    ns1:lat 4.576433e+01 ;
+    ns1:lng 4.853492e+00 ;
+    ns1:name "Récamier / Tête d'Or"^^xsd:string .
+
+ex:6031 a ex:BicycleStand ;
+    ns1:id "6031"^^xsd:int ;
+    ns1:lat 4.576376e+01 ;
+    ns1:lng 4.843777e+00 ;
+    ns1:name "Lafayette / Corneille"^^xsd:string .
+
+ex:6032 a ex:BicycleStand ;
+    ns1:id "6032"^^xsd:int ;
+    ns1:lat 4.576486e+01 ;
+    ns1:lng 4.841565e+00 ;
+    ns1:name "Préfecture / Sarrail"^^xsd:string .
+
+ex:6033 a ex:BicycleStand ;
+    ns1:id "6033"^^xsd:int ;
+    ns1:lat 4.57638e+01 ;
+    ns1:lng 4.847062e+00 ;
+    ns1:name "Créqui / Lafayette"^^xsd:string .
+
+ex:6035 a ex:BicycleStand ;
+    ns1:id "6035"^^xsd:int ;
+    ns1:lat 4.578542e+01 ;
+    ns1:lng 4.854124e+00 ;
+    ns1:name "Cité Internationale"^^xsd:string .
+
+ex:6036 a ex:BicycleStand ;
+    ns1:id "6036"^^xsd:int ;
+    ns1:lat 4.578388e+01 ;
+    ns1:lng 4.85214e+00 ;
+    ns1:name "Musée d'Art Contemporain"^^xsd:string .
+
+ex:6037 a ex:BicycleStand ;
+    ns1:id "6037"^^xsd:int ;
+    ns1:lat 4.578231e+01 ;
+    ns1:lng 4.849344e+00 ;
+    ns1:name "Cité Internationale / Interpol"^^xsd:string .
+
+ex:6039 a ex:BicycleStand ;
+    ns1:id "6039"^^xsd:int ;
+    ns1:lat 4.576669e+01 ;
+    ns1:lng 4.852086e+00 ;
+    ns1:name "Garibaldi / Vauban"^^xsd:string .
+
+ex:6040 a ex:BicycleStand ;
+    ns1:id "6040"^^xsd:int ;
+    ns1:lat 4.576406e+01 ;
+    ns1:lng 4.849931e+00 ;
+    ns1:name "Les Halles"^^xsd:string .
+
+ex:6041 a ex:BicycleStand ;
+    ns1:id "6041"^^xsd:int ;
+    ns1:lat 4.578461e+01 ;
+    ns1:lng 4.859639e+00 ;
+    ns1:name "Cité Internationale - Tête d'Or Nord"^^xsd:string .
+
+ex:6042 a ex:BicycleStand ;
+    ns1:id "6042"^^xsd:int ;
+    ns1:lat 4.578482e+01 ;
+    ns1:lng 4.856512e+00 ;
+    ns1:name "Cité Internationale - Résidence hôtelière"^^xsd:string .
+
+ex:6043 a ex:BicycleStand ;
+    ns1:id "6043"^^xsd:int ;
+    ns1:lat 4.57847e+01 ;
+    ns1:lng 4.851908e+00 ;
+    ns1:name "Cité Internationale - Cinéma"^^xsd:string .
+
+ex:6044 a ex:BicycleStand ;
+    ns1:id "6044"^^xsd:int ;
+    ns1:lat 4.576637e+01 ;
+    ns1:lng 4.865084e+00 ;
+    ns1:name "Charmettes / Bellecombe"^^xsd:string .
+
+ex:6045 a ex:BicycleStand ;
+    ns1:id "6045"^^xsd:int ;
+    ns1:lat 4.576637e+01 ;
+    ns1:lng 4.857002e+00 ;
+    ns1:name "Brotteaux / Vauban"^^xsd:string .
+
+ex:7001 a ex:BicycleStand ;
+    ns1:id "7001"^^xsd:int ;
+    ns1:lat 4.575488e+01 ;
+    ns1:lng 4.843675e+00 ;
+    ns1:name "Place Gabriel Péri"^^xsd:string .
+
+ex:7002 a ex:BicycleStand ;
+    ns1:id "7002"^^xsd:int ;
+    ns1:lat 4.575141e+01 ;
+    ns1:lng 4.836393e+00 ;
+    ns1:name "Universités Lyon III / Lyon II"^^xsd:string .
+
+ex:7003 a ex:BicycleStand ;
+    ns1:id "7003"^^xsd:int ;
+    ns1:lat 4.575179e+01 ;
+    ns1:lng 4.852608e+00 ;
+    ns1:name "Gambetta / Garibaldi"^^xsd:string .
+
+ex:7004 a ex:BicycleStand ;
+    ns1:id "7004"^^xsd:int ;
+    ns1:lat 4.574656e+01 ;
+    ns1:lng 4.842341e+00 ;
+    ns1:name "Mairie du 7e"^^xsd:string .
+
+ex:7005 a ex:BicycleStand ;
+    ns1:id "7005"^^xsd:int ;
+    ns1:lat 4.573175e+01 ;
+    ns1:lng 4.833962e+00 ;
+    ns1:name "Debourg"^^xsd:string .
+
+ex:7006 a ex:BicycleStand ;
+    ns1:id "7006"^^xsd:int ;
+    ns1:lat 4.572757e+01 ;
+    ns1:lng 4.831197e+00 ;
+    ns1:name "Gerland"^^xsd:string .
+
+ex:7007 a ex:BicycleStand ;
+    ns1:id "7007"^^xsd:int ;
+    ns1:lat 4.573567e+01 ;
+    ns1:lng 4.827719e+00 ;
+    ns1:name "Farge / Ayasse"^^xsd:string .
+
+ex:7008 a ex:BicycleStand ;
+    ns1:id "7008"^^xsd:int ;
+    ns1:lat 4.575258e+01 ;
+    ns1:lng 4.846321e+00 ;
+    ns1:name "Jean Jaurès / Guillotière"^^xsd:string .
+
+ex:7009 a ex:BicycleStand ;
+    ns1:id "7009"^^xsd:int ;
+    ns1:lat 4.573752e+01 ;
+    ns1:lng 4.837509e+00 ;
+    ns1:name "Jean Jaurès"^^xsd:string .
+
+ex:7010 a ex:BicycleStand ;
+    ns1:id "7010"^^xsd:int ;
+    ns1:lat 4.574736e+01 ;
+    ns1:lng 4.836e+00 ;
+    ns1:name "Centre Berthelot"^^xsd:string .
+
+ex:7011 a ex:BicycleStand ;
+    ns1:id "7011"^^xsd:int ;
+    ns1:lat 4.574371e+01 ;
+    ns1:lng 4.847369e+00 ;
+    ns1:name "Berthelot / Garibaldi"^^xsd:string .
+
+ex:7012 a ex:BicycleStand ;
+    ns1:id "7012"^^xsd:int ;
+    ns1:lat 4.57295e+01 ;
+    ns1:lng 4.829702e+00 ;
+    ns1:name "Place des Pavillons"^^xsd:string .
+
+ex:7013 a ex:BicycleStand ;
+    ns1:id "7013"^^xsd:int ;
+    ns1:lat 4.573084e+01 ;
+    ns1:lng 4.82374e+00 ;
+    ns1:name "Halle Tony Garnier"^^xsd:string .
+
+ex:7014 a ex:BicycleStand ;
+    ns1:id "7014"^^xsd:int ;
+    ns1:lat 4.575299e+01 ;
+    ns1:lng 4.841415e+00 ;
+    ns1:name "Marseille / Félissent"^^xsd:string .
+
+ex:7015 a ex:BicycleStand ;
+    ns1:id "7015"^^xsd:int ;
+    ns1:lat 4.57228e+01 ;
+    ns1:lng 4.842706e+00 ;
+    ns1:name "Techsud"^^xsd:string .
+
+ex:7016 a ex:BicycleStand ;
+    ns1:id "7016"^^xsd:int ;
+    ns1:lat 4.574908e+01 ;
+    ns1:lng 4.84774e+00 ;
+    ns1:name "Place St Louis"^^xsd:string .
+
+ex:7017 a ex:BicycleStand ;
+    ns1:id "7017"^^xsd:int ;
+    ns1:lat 4.573676e+01 ;
+    ns1:lng 4.834138e+00 ;
+    ns1:name "Beauvoir / Marot"^^xsd:string .
+
+ex:7018 a ex:BicycleStand ;
+    ns1:id "7018"^^xsd:int ;
+    ns1:lat 4.574028e+01 ;
+    ns1:lng 4.832059e+00 ;
+    ns1:name "Lycée Louise Labé"^^xsd:string .
+
+ex:7019 a ex:BicycleStand ;
+    ns1:id "7019"^^xsd:int ;
+    ns1:lat 4.573679e+01 ;
+    ns1:lng 4.841152e+00 ;
+    ns1:name "Croix Barret / Artillerie"^^xsd:string .
+
+ex:7020 a ex:BicycleStand ;
+    ns1:id "7020"^^xsd:int ;
+    ns1:lat 4.572435e+01 ;
+    ns1:lng 4.826821e+00 ;
+    ns1:name "Parc de Gerland"^^xsd:string .
+
+ex:7021 a ex:BicycleStand ;
+    ns1:id "7021"^^xsd:int ;
+    ns1:lat 4.572981e+01 ;
+    ns1:lng 4.838138e+00 ;
+    ns1:name "Challemel Lacour / Gerland"^^xsd:string .
+
+ex:7022 a ex:BicycleStand ;
+    ns1:id "7022"^^xsd:int ;
+    ns1:lat 4.574391e+01 ;
+    ns1:lng 4.841424e+00 ;
+    ns1:name "Jaurès / Lagrange"^^xsd:string .
+
+ex:7023 a ex:BicycleStand ;
+    ns1:id "7023"^^xsd:int ;
+    ns1:lat 4.574258e+01 ;
+    ns1:lng 4.850564e+00 ;
+    ns1:name "Berthelot / Route de Vienne"^^xsd:string .
+
+ex:7024 a ex:BicycleStand ;
+    ns1:id "7024"^^xsd:int ;
+    ns1:lat 4.574852e+01 ;
+    ns1:lng 4.840525e+00 ;
+    ns1:name "Bancel / Chevreul"^^xsd:string .
+
+ex:7025 a ex:BicycleStand ;
+    ns1:id "7025"^^xsd:int ;
+    ns1:lat 4.572946e+01 ;
+    ns1:lng 4.844178e+00 ;
+    ns1:name "Lacour / Artillerie"^^xsd:string .
+
+ex:7026 a ex:BicycleStand ;
+    ns1:id "7026"^^xsd:int ;
+    ns1:lat 4.57277e+01 ;
+    ns1:lng 4.837382e+00 ;
+    ns1:name "Baldassini / Gerland"^^xsd:string .
+
+ex:7030 a ex:BicycleStand ;
+    ns1:id "7030"^^xsd:int ;
+    ns1:lat 4.574316e+01 ;
+    ns1:lng 4.834169e+00 ;
+    ns1:name "Quartier Général Frère"^^xsd:string .
+
+ex:7031 a ex:BicycleStand ;
+    ns1:id "7031"^^xsd:int ;
+    ns1:lat 4.573981e+01 ;
+    ns1:lng 4.840307e+00 ;
+    ns1:name "Jaurès / Gerland"^^xsd:string .
+
+ex:7033 a ex:BicycleStand ;
+    ns1:id "7033"^^xsd:int ;
+    ns1:lat 4.574942e+01 ;
+    ns1:lng 4.834752e+00 ;
+    ns1:name "Saint-Luc / Saint-Joseph"^^xsd:string .
+
+ex:7034 a ex:BicycleStand ;
+    ns1:id "7034"^^xsd:int ;
+    ns1:lat 4.575361e+01 ;
+    ns1:lng 4.838221e+00 ;
+    ns1:name "Piscine du Rhône"^^xsd:string .
+
+ex:7035 a ex:BicycleStand ;
+    ns1:id "7035"^^xsd:int ;
+    ns1:lat 4.575095e+01 ;
+    ns1:lng 4.839267e+00 ;
+    ns1:name "Marseille / Université"^^xsd:string .
+
+ex:7036 a ex:BicycleStand ;
+    ns1:id "7036"^^xsd:int ;
+    ns1:lat 4.575191e+01 ;
+    ns1:lng 4.843786e+00 ;
+    ns1:name "Gryphe / Montesquieu"^^xsd:string .
+
+ex:7038 a ex:BicycleStand ;
+    ns1:id "7038"^^xsd:int ;
+    ns1:lat 4.574958e+01 ;
+    ns1:lng 4.852966e+00 ;
+    ns1:name "Place Stalingard"^^xsd:string .
+
+ex:7039 a ex:BicycleStand ;
+    ns1:id "7039"^^xsd:int ;
+    ns1:lat 4.575106e+01 ;
+    ns1:lng 4.848048e+00 ;
+    ns1:name "Guillotière / Madeleine"^^xsd:string .
+
+ex:7041 a ex:BicycleStand ;
+    ns1:id "7041"^^xsd:int ;
+    ns1:lat 4.574667e+01 ;
+    ns1:lng 4.844443e+00 ;
+    ns1:name "Domer / Chevreul"^^xsd:string .
+
+ex:7045 a ex:BicycleStand ;
+    ns1:id "7045"^^xsd:int ;
+    ns1:lat 4.573774e+01 ;
+    ns1:lng 4.824488e+00 ;
+    ns1:name "Parc des Berges"^^xsd:string .
+
+ex:7046 a ex:BicycleStand ;
+    ns1:id "7046"^^xsd:int ;
+    ns1:lat 4.573008e+01 ;
+    ns1:lng 4.827823e+00 ;
+    ns1:name "Place de l'Ecole"^^xsd:string .
+
+ex:7049 a ex:BicycleStand ;
+    ns1:id "7049"^^xsd:int ;
+    ns1:lat 4.572792e+01 ;
+    ns1:lng 4.82356e+00 ;
+    ns1:name "Cité Scolaire Internationale"^^xsd:string .
+
+ex:7051 a ex:BicycleStand ;
+    ns1:id "7051"^^xsd:int ;
+    ns1:lat 4.574793e+01 ;
+    ns1:lng 4.856337e+00 ;
+    ns1:name "Guillotière / Veyron"^^xsd:string .
+
+ex:7052 a ex:BicycleStand ;
+    ns1:id "7052"^^xsd:int ;
+    ns1:lat 4.574596e+01 ;
+    ns1:lng 4.851196e+00 ;
+    ns1:name "Parc Blandan"^^xsd:string .
+
+ex:7053 a ex:BicycleStand ;
+    ns1:id "7053"^^xsd:int ;
+    ns1:lat 4.575034e+01 ;
+    ns1:lng 4.845048e+00 ;
+    ns1:name "Jaurès / Thibaudière"^^xsd:string .
+
+ex:7055 a ex:BicycleStand ;
+    ns1:id "7055"^^xsd:int ;
+    ns1:lat 4.574677e+01 ;
+    ns1:lng 4.842051e+00 ;
+    ns1:name "Servant / Jaboulay"^^xsd:string .
+
+ex:7056 a ex:BicycleStand ;
+    ns1:id "7056"^^xsd:int ;
+    ns1:lat 4.575577e+01 ;
+    ns1:lng 4.840733e+00 ;
+    ns1:name "Place Raspail"^^xsd:string .
+
+ex:7057 a ex:BicycleStand ;
+    ns1:id "7057"^^xsd:int ;
+    ns1:lat 4.573473e+01 ;
+    ns1:lng 4.835497e+00 ;
+    ns1:name "Jaurès / Bollier"^^xsd:string .
+
+ex:7061 a ex:BicycleStand ;
+    ns1:id "7061"^^xsd:int ;
+    ns1:lat 4.574854e+01 ;
+    ns1:lng 4.843249e+00 ;
+    ns1:name "Jaurès / Université"^^xsd:string .
+
+ex:7062 a ex:BicycleStand ;
+    ns1:id "7062"^^xsd:int ;
+    ns1:lat 4.574773e+01 ;
+    ns1:lng 4.851627e+00 ;
+    ns1:name "Garibaldi / Domer"^^xsd:string .
+
+ex:7064 a ex:BicycleStand ;
+    ns1:id "7064"^^xsd:int ;
+    ns1:lat 4.574543e+01 ;
+    ns1:lng 4.84778e+00 ;
+    ns1:name "CROUS"^^xsd:string .
+
+ex:8001 a ex:BicycleStand ;
+    ns1:id "8001"^^xsd:int ;
+    ns1:lat 4.574854e+01 ;
+    ns1:lng 4.861542e+00 ;
+    ns1:name "Université Lyon III"^^xsd:string .
+
+ex:8002 a ex:BicycleStand ;
+    ns1:id "8002"^^xsd:int ;
+    ns1:lat 4.574529e+01 ;
+    ns1:lng 4.871679e+00 ;
+    ns1:name "Place Ambroise Courtois"^^xsd:string .
+
+ex:8003 a ex:BicycleStand ;
+    ns1:id "8003"^^xsd:int ;
+    ns1:lat 4.573814e+01 ;
+    ns1:lng 4.88688e+00 ;
+    ns1:name "Claude Bernard Lyon I"^^xsd:string .
+
+ex:8004 a ex:BicycleStand ;
+    ns1:id "8004"^^xsd:int ;
+    ns1:lat 4.573515e+01 ;
+    ns1:lng 4.872817e+00 ;
+    ns1:name "Mairie du 8e"^^xsd:string .
+
+ex:8006 a ex:BicycleStand ;
+    ns1:id "8006"^^xsd:int ;
+    ns1:lat 4.572977e+01 ;
+    ns1:lng 4.868167e+00 ;
+    ns1:name "Place du 8 mai 1945"^^xsd:string .
+
+ex:8007 a ex:BicycleStand ;
+    ns1:id "8007"^^xsd:int ;
+    ns1:lat 4.574502e+01 ;
+    ns1:lng 4.866433e+00 ;
+    ns1:name "Frères Lumière"^^xsd:string .
+
+ex:8008 a ex:BicycleStand ;
+    ns1:id "8008"^^xsd:int ;
+    ns1:lat 4.572787e+01 ;
+    ns1:lng 4.863442e+00 ;
+    ns1:name "Beauvisage / Préssensé"^^xsd:string .
+
+ex:8009 a ex:BicycleStand ;
+    ns1:id "8009"^^xsd:int ;
+    ns1:lat 4.573648e+01 ;
+    ns1:lng 4.869805e+00 ;
+    ns1:name "Jean XXIII / Mermoz"^^xsd:string .
+
+ex:8010 a ex:BicycleStand ;
+    ns1:id "8010"^^xsd:int ;
+    ns1:lat 4.574005e+01 ;
+    ns1:lng 4.859416e+00 ;
+    ns1:name "Place Mendès France"^^xsd:string .
+
+ex:8011 a ex:BicycleStand ;
+    ns1:id "8011"^^xsd:int ;
+    ns1:lat 4.573565e+01 ;
+    ns1:lng 4.853043e+00 ;
+    ns1:name "Place Lebret"^^xsd:string .
+
+ex:8015 a ex:BicycleStand ;
+    ns1:id "8015"^^xsd:int ;
+    ns1:lat 4.574033e+01 ;
+    ns1:lng 4.874194e+00 ;
+    ns1:name "Jean XXIII"^^xsd:string .
+
+ex:8020 a ex:BicycleStand ;
+    ns1:id "8020"^^xsd:int ;
+    ns1:lat 4.572968e+01 ;
+    ns1:lng 4.854182e+00 ;
+    ns1:name "Moulin à Vent"^^xsd:string .
+
+ex:8021 a ex:BicycleStand ;
+    ns1:id "8021"^^xsd:int ;
+    ns1:lat 4.572852e+01 ;
+    ns1:lng 4.877306e+00 ;
+    ns1:name "Paul Santy"^^xsd:string .
+
+ex:8023 a ex:BicycleStand ;
+    ns1:id "8023"^^xsd:int ;
+    ns1:lat 4.573071e+01 ;
+    ns1:lng 4.887539e+00 ;
+    ns1:name "Mermoz / Pinel"^^xsd:string .
+
+ex:8024 a ex:BicycleStand ;
+    ns1:id "8024"^^xsd:int ;
+    ns1:lat 4.573327e+01 ;
+    ns1:lng 4.878601e+00 ;
+    ns1:name "Mermoz / Michelet"^^xsd:string .
+
+ex:8025 a ex:BicycleStand ;
+    ns1:id "8025"^^xsd:int ;
+    ns1:lat 4.574445e+01 ;
+    ns1:lng 4.860887e+00 ;
+    ns1:name "Dumont / Jouvet"^^xsd:string .
+
+ex:8029 a ex:BicycleStand ;
+    ns1:id "8029"^^xsd:int ;
+    ns1:lat 4.573222e+01 ;
+    ns1:lng 4.865142e+00 ;
+    ns1:name "Etats-Unis / Lévigne"^^xsd:string .
+
+ex:8030 a ex:BicycleStand ;
+    ns1:id "8030"^^xsd:int ;
+    ns1:lat 4.574135e+01 ;
+    ns1:lng 4.879723e+00 ;
+    ns1:name "Laënnec"^^xsd:string .
+
+ex:8033 a ex:BicycleStand ;
+    ns1:id "8033"^^xsd:int ;
+    ns1:lat 4.573733e+01 ;
+    ns1:lng 4.865494e+00 ;
+    ns1:name "Berthelot / Cazeneuve"^^xsd:string .
+
+ex:8034 a ex:BicycleStand ;
+    ns1:id "8034"^^xsd:int ;
+    ns1:lat 4.57383e+01 ;
+    ns1:lng 4.862733e+00 ;
+    ns1:name "Berthelot / Villon"^^xsd:string .
+
+ex:8035 a ex:BicycleStand ;
+    ns1:id "8035"^^xsd:int ;
+    ns1:lat 4.574725e+01 ;
+    ns1:lng 4.865286e+00 ;
+    ns1:name "Sans Souci"^^xsd:string .
+
+ex:8037 a ex:BicycleStand ;
+    ns1:id "8037"^^xsd:int ;
+    ns1:lat 4.573402e+01 ;
+    ns1:lng 4.862902e+00 ;
+    ns1:name "Cazeneuve"^^xsd:string .
+
+ex:8038 a ex:BicycleStand ;
+    ns1:id "8038"^^xsd:int ;
+    ns1:lat 4.574672e+01 ;
+    ns1:lng 4.867429e+00 ;
+    ns1:name "Albert Thomas / Villon"^^xsd:string .
+
+ex:8039 a ex:BicycleStand ;
+    ns1:id "8039"^^xsd:int ;
+    ns1:lat 4.573864e+01 ;
+    ns1:lng 4.8524e+00 ;
+    ns1:name "Pierre Delore"^^xsd:string .
+
+ex:8040 a ex:BicycleStand ;
+    ns1:id "8040"^^xsd:int ;
+    ns1:lat 4.57363e+01 ;
+    ns1:lng 4.883682e+00 ;
+    ns1:name "Ambroise Paré"^^xsd:string .
+
+ex:8041 a ex:BicycleStand ;
+    ns1:id "8041"^^xsd:int ;
+    ns1:lat 4.57247e+01 ;
+    ns1:lng 4.870766e+00 ;
+    ns1:name "Etats-Unis / Viviani"^^xsd:string .
+
+ex:8042 a ex:BicycleStand ;
+    ns1:id "8042"^^xsd:int ;
+    ns1:lat 4.573143e+01 ;
+    ns1:lng 4.860038e+00 ;
+    ns1:name "Francis de Pressenssé"^^xsd:string .
+
+ex:8050 a ex:BicycleStand ;
+    ns1:id "8050"^^xsd:int ;
+    ns1:lat 4.573627e+01 ;
+    ns1:lng 4.879737e+00 ;
+    ns1:name "Bataille / Krüger"^^xsd:string .
+
+ex:8051 a ex:BicycleStand ;
+    ns1:id "8051"^^xsd:int ;
+    ns1:lat 4.572414e+01 ;
+    ns1:lng 4.854176e+00 ;
+    ns1:name "Hôpital Saint-Jean de Dieu"^^xsd:string .
+
+ex:8052 a ex:BicycleStand ;
+    ns1:id "8052"^^xsd:int ;
+    ns1:lat 4.574708e+01 ;
+    ns1:lng 4.860191e+00 ;
+    ns1:name "Clinique Montplaisir"^^xsd:string .
+
+ex:8053 a ex:BicycleStand ;
+    ns1:id "8053"^^xsd:int ;
+    ns1:lat 4.574357e+01 ;
+    ns1:lng 4.870102e+00 ;
+    ns1:name "Lumière / Trouilhet"^^xsd:string .
+
+ex:8054 a ex:BicycleStand ;
+    ns1:id "8054"^^xsd:int ;
+    ns1:lat 4.574089e+01 ;
+    ns1:lng 4.868305e+00 ;
+    ns1:name "Martinière / Monplaisir"^^xsd:string .
+
+ex:8055 a ex:BicycleStand ;
+    ns1:id "8055"^^xsd:int ;
+    ns1:lat 4.574226e+01 ;
+    ns1:lng 4.860372e+00 ;
+    ns1:name "Saint-Romain / Berliet"^^xsd:string .
+
+ex:8056 a ex:BicycleStand ;
+    ns1:id "8056"^^xsd:int ;
+    ns1:lat 4.57358e+01 ;
+    ns1:lng 4.856813e+00 ;
+    ns1:name "Delore / Audibert & Lavirotte"^^xsd:string .
+
+ex:8057 a ex:BicycleStand ;
+    ns1:id "8057"^^xsd:int ;
+    ns1:lat 4.573248e+01 ;
+    ns1:lng 4.85341e+00 ;
+    ns1:name "Vienne / Montagny"^^xsd:string .
+
+ex:8058 a ex:BicycleStand ;
+    ns1:id "8058"^^xsd:int ;
+    ns1:lat 4.573867e+01 ;
+    ns1:lng 4.878117e+00 ;
+    ns1:name "Longefer / Krüger"^^xsd:string .
+
+ex:8059 a ex:BicycleStand ;
+    ns1:id "8059"^^xsd:int ;
+    ns1:lat 4.573537e+01 ;
+    ns1:lng 4.889539e+00 ;
+    ns1:name "Laënnec / Pinel"^^xsd:string .
+
+ex:8060 a ex:BicycleStand ;
+    ns1:id "8060"^^xsd:int ;
+    ns1:lat 4.573168e+01 ;
+    ns1:lng 4.874128e+00 ;
+    ns1:name "Santy / Beauvisage"^^xsd:string .
+
+ex:8061 a ex:BicycleStand ;
+    ns1:id "8061"^^xsd:int ;
+    ns1:lat 4.57254e+01 ;
+    ns1:lng 4.881295e+00 ;
+    ns1:name "Stade Vuillermet"^^xsd:string .
+
+ex:9002 a ex:BicycleStand ;
+    ns1:id "9002"^^xsd:int ;
+    ns1:lat 4.577424e+01 ;
+    ns1:lng 4.805666e+00 ;
+    ns1:name "Mairie du 9e"^^xsd:string .
+
+ex:9003 a ex:BicycleStand ;
+    ns1:id "9003"^^xsd:int ;
+    ns1:lat 4.577567e+01 ;
+    ns1:lng 4.805304e+00 ;
+    ns1:name "Place Valmy"^^xsd:string .
+
+ex:9004 a ex:BicycleStand ;
+    ns1:id "9004"^^xsd:int ;
+    ns1:lat 4.577978e+01 ;
+    ns1:lng 4.804665e+00 ;
+    ns1:name "Gare de Vaise"^^xsd:string .
+
+ex:9006 a ex:BicycleStand ;
+    ns1:id "9006"^^xsd:int ;
+    ns1:lat 4.57773e+01 ;
+    ns1:lng 4.803312e+00 ;
+    ns1:name "Théâtre Nouvelle Génération"^^xsd:string .
+
+ex:9008 a ex:BicycleStand ;
+    ns1:id "9008"^^xsd:int ;
+    ns1:lat 4.579741e+01 ;
+    ns1:lng 4.829046e+00 ;
+    ns1:name "L'Ile Barbe"^^xsd:string .
+
+ex:9009 a ex:BicycleStand ;
+    ns1:id "9009"^^xsd:int ;
+    ns1:lat 4.580112e+01 ;
+    ns1:lng 4.825273e+00 ;
+    ns1:name "Berlioz / Chalinel"^^xsd:string .
+
+ex:9010 a ex:BicycleStand ;
+    ns1:id "9010"^^xsd:int ;
+    ns1:lat 4.577102e+01 ;
+    ns1:lng 4.79645e+00 ;
+    ns1:name "Piscine de Vaise"^^xsd:string .
+
+ex:9011 a ex:BicycleStand ;
+    ns1:id "9011"^^xsd:int ;
+    ns1:lat 4.576978e+01 ;
+    ns1:lng 4.812676e+00 ;
+    ns1:name "Conservatoire"^^xsd:string .
+
+ex:9013 a ex:BicycleStand ;
+    ns1:id "9013"^^xsd:int ;
+    ns1:lat 4.578751e+01 ;
+    ns1:lng 4.814421e+00 ;
+    ns1:name "Quai Paul Sédaillan"^^xsd:string .
+
+ex:9014 a ex:BicycleStand ;
+    ns1:id "9014"^^xsd:int ;
+    ns1:lat 4.578237e+01 ;
+    ns1:lng 4.810747e+00 ;
+    ns1:name "Quai du Commerce"^^xsd:string .
+
+ex:9015 a ex:BicycleStand ;
+    ns1:id "9015"^^xsd:int ;
+    ns1:lat 4.578283e+01 ;
+    ns1:lng 4.807296e+00 ;
+    ns1:name "Saint-Cyr"^^xsd:string .
+
+ex:9020 a ex:BicycleStand ;
+    ns1:id "9020"^^xsd:int ;
+    ns1:lat 4.577346e+01 ;
+    ns1:lng 4.800288e+00 ;
+    ns1:name "Bourbonnais"^^xsd:string .
+
+ex:9022 a ex:BicycleStand ;
+    ns1:id "9022"^^xsd:int ;
+    ns1:lat 4.577863e+01 ;
+    ns1:lng 4.80712e+00 ;
+    ns1:name "Masaryk / Saint-Cyr"^^xsd:string .
+
+ex:9029 a ex:BicycleStand ;
+    ns1:id "9029"^^xsd:int ;
+    ns1:lat 4.57731e+01 ;
+    ns1:lng 4.807814e+00 ;
+    ns1:name "Saint Pierre de Vaise"^^xsd:string .
+
+ex:9032 a ex:BicycleStand ;
+    ns1:id "9032"^^xsd:int ;
+    ns1:lat 4.577382e+01 ;
+    ns1:lng 4.80956e+00 ;
+    ns1:name "Place du Port Mouton"^^xsd:string .
+
+ex:9033 a ex:BicycleStand ;
+    ns1:id "9033"^^xsd:int ;
+    ns1:lat 4.576737e+01 ;
+    ns1:lng 4.805628e+00 ;
+    ns1:name "Gorge de Loup"^^xsd:string .
+
+ex:9040 a ex:BicycleStand ;
+    ns1:id "9040"^^xsd:int ;
+    ns1:lat 4.577099e+01 ;
+    ns1:lng 4.80758e+00 ;
+    ns1:name "Place de la Rhodiacéta"^^xsd:string .
+
+ex:9041 a ex:BicycleStand ;
+    ns1:id "9041"^^xsd:int ;
+    ns1:lat 4.579248e+01 ;
+    ns1:lng 4.820578e+00 ;
+    ns1:name "Carret / Sédaillan"^^xsd:string .
+
+ex:9042 a ex:BicycleStand ;
+    ns1:id "9042"^^xsd:int ;
+    ns1:lat 4.578651e+01 ;
+    ns1:lng 4.811441e+00 ;
+    ns1:name "Vaise Docks"^^xsd:string .
+
+ex:9043 a ex:BicycleStand ;
+    ns1:id "9043"^^xsd:int ;
+    ns1:lat 4.577609e+01 ;
+    ns1:lng 4.799738e+00 ;
+    ns1:name "Marietton Ouest"^^xsd:string .
+
+ex:9044 a ex:BicycleStand ;
+    ns1:id "9044"^^xsd:int ;
+    ns1:lat 4.577048e+01 ;
+    ns1:lng 4.8009e+00 ;
+    ns1:name "Masset / Saint-Pierre de Vaise"^^xsd:string .
+
+ex:9046 a ex:BicycleStand ;
+    ns1:id "9046"^^xsd:int ;
+    ns1:lat 4.579041e+01 ;
+    ns1:lng 4.816349e+00 ;
+    ns1:name "Mangini"^^xsd:string .
+
+ex:9049 a ex:BicycleStand ;
+    ns1:id "9049"^^xsd:int ;
+    ns1:lat 4.577013e+01 ;
+    ns1:lng 4.805158e+00 ;
+    ns1:name "Sergent Berthet / Gorge de Loup"^^xsd:string .
+
+ex:9050 a ex:BicycleStand ;
+    ns1:id "9050"^^xsd:int ;
+    ns1:lat 4.578364e+01 ;
+    ns1:lng 4.794525e+00 ;
+    ns1:name "Allée de l'Europe"^^xsd:string .
+
+ex:9051 a ex:BicycleStand ;
+    ns1:id "9051"^^xsd:int ;
+    ns1:lat 4.578652e+01 ;
+    ns1:lng 4.797071e+00 ;
+    ns1:name "Andréi Sakharov"^^xsd:string .
+
+ex:9052 a ex:BicycleStand ;
+    ns1:id "9052"^^xsd:int ;
+    ns1:lat 4.578932e+01 ;
+    ns1:lng 4.79916e+00 ;
+    ns1:name "Balmont"^^xsd:string .
+
+ex:available_bike a owl:DatatypeProperty ;
+    rdfs:domain ex:BicycleStand ;
+    rdfs:range xsd:int .
+
+ex:available_bike_stands a owl:DatatypeProperty ;
+    rdfs:domain ex:BicycleStand ;
+    rdfs:range xsd:int .
+
+ex:id a owl:DatatypeProperty ;
+    rdfs:domain ex:BicycleStand ;
+    rdfs:range xsd:int .
+
+ex:last_update a owl:DatatypeProperty ;
+    rdfs:domain ex:BicycleStand ;
+    rdfs:range xsd:dateTime .
+
+ex:lat a owl:DatatypeProperty ;
+    rdfs:domain ex:BicycleStand ;
+    rdfs:range xsd:double .
+
+ex:lng a owl:DatatypeProperty ;
+    rdfs:domain ex:BicycleStand ;
+    rdfs:range xsd:double .
+
+ex:name a owl:DatatypeProperty ;
+    rdfs:domain ex:BicycleStand ;
+    rdfs:range xsd:string .
+
+ex:BicycleStand a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onDataRange xsd:double ;
+            owl:onProperty ex:lng ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        [ a owl:Restriction ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty ex:name ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        [ a owl:Restriction ;
+            owl:onDataRange xsd:int ;
+            owl:onProperty ex:available_bike ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        [ a owl:Restriction ;
+            owl:onDataRange xsd:double ;
+            owl:onProperty ex:lat ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        [ a owl:Restriction ;
+            owl:onDataRange xsd:int ;
+            owl:onProperty ex:available_bike_stands ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        [ a owl:Restriction ;
+            owl:onDataRange xsd:int ;
+            owl:onProperty ex:id ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        [ a owl:Restriction ;
+            owl:onDataRange xsd:dateTime ;
+            owl:onProperty ex:last_update ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ] .
+

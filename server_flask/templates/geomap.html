@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyon real-time bike data</title>
+    {{ hdr_txt }}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/geomap.css') }}">
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="left">
+			<div class="search">
+
+			</div>
+			<div id="list-stations">
+			
+			</div>
+		</div>
+		<div class="right">
+			{{ map_div }}
+		</div>
+	</div>
+</body>
+
+<script>
+    {{ script_txt }}
+</script>
+<script type="text/javascript" src="{{url_for('static', filename='js/index.js') }}"></script>
+<script type="text/javascript">
+	displayBikestands({{ data|tojson }})
+</script>
+</html>
