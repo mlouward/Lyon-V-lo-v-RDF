@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(215, 136, 136);
+  background-color: #eaeaea;
 }
 
 .wrap {
@@ -9,27 +9,35 @@ body {
 
 .left {
   float: left;
-  width: 39%;
+  width: 32%;
   height: 95%;
   margin: 1% 0 0 1%;
+  /* border: 2px solid #f42f34; */
 }
 
 .right {
   float: right;
-  width: 56%;
-  height: 95%;
+  width: 66%;
+  height: 94%;
+  margin: 0 1% 0 0;
   display: flex;
+  /* border: 2px solid #f42f34; */
 }
 
 .search {
-  margin: 2rem 5% 1rem 5%;
+  margin: 0 5%;
+}
+
+.search h1 {
+  margin: 1rem 0 0 0;
 }
 
 .search input {
-  width: 90%;
+  width: 98%;
   height: 40px;
   border-radius: 3px;
   font-size: large;
+  border: 2px solid #f42f34;
 }
 
 #list-stations {
@@ -45,10 +53,11 @@ body {
   background-color: white;
   /* box-shadow: 0 1px 4px rgba(0, 0, 0, .6); */
   border-radius: 5px;
-  border: 2px solid black;
+  border: 2px solid #f42f34;
   transition: background-color .1s;
   transition: transform .1s;
   padding: .5rem 1.5rem;
+  font-size: 14;
 }
 
 .bike-wrapper {
@@ -59,5 +68,6 @@ body {
 .folium-map {
   margin: 2%;
   align-content: space-around;
+  border: 2px solid #f42f34;
   border-radius: 3px;
 }

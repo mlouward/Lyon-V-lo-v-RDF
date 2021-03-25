@@ -4,13 +4,15 @@ const searchbar = document.getElementById("searchbar")
 searchbar.addEventListener('input', _ => {
   // Search with regex (case-insensititve and anywhere in the name/adddress of bike station)
   const searchTerms = escapeRegExp(searchbar.value);
-  if (searchTerms === "") return window.stations;
-  const exp = new RegExp(searchTerms, 'ig');
-  // filter regex matches on address or name of station
-  const searchResults = window.stations.filter((x) => {
-    if (x.name.search(exp) > -1 || x.address.search(exp) > -1)
-      return x;
-  })
+  let searchResults = window.stations;
+  if (searchTerms !== "") {
+    const exp = new RegExp(searchTerms, 'ig');
+    // filter regex matches on address or name of station
+    searchResults = window.stations.filter((x) => {
+      if (x.name.search(exp) > -1 || x.address.search(exp) > -1)
+        return x;
+    })
+  }
 
   // remove all cards
   while (listStations.firstChild) {

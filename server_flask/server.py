@@ -25,7 +25,7 @@ def index():
 @app.route('/map')
 def geomap():
     lyon = folium.Map(
-        location=[45.7661517, 4.85813048], zoom_start=14)
+        location=[45.7661517, 4.85813048], zoom_start=14, tiles="CartoDB Positron")
     stations = get_stations_infos()
     live_count = get_bikes_by_station()
     coordinates = stations[['lat', 'lng']].values.tolist()
@@ -84,11 +84,11 @@ def get_bikes_by_station():
 def map_popup(stations, live_count, point):
     s = live_count
     res = ("{} <br>"
-           "{} stands available <br>"
-           "{} bikes available <br>"
+           "{} places disponibles <br>"
+           "{} vélos disponibles <br>"
            "Status: {} <br>"
-           "Address: {} <br>"
-           "Update time: {}").format(
+           "Addresse: {} <br>"
+           "Last update: {}").format(
                str(stations['name'][point].encode(
                    'raw_unicode_escape'))[2:-1],
         live_count.loc[live_count["name"] == stations["name"]
