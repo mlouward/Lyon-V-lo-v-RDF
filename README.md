@@ -13,13 +13,21 @@ Lyon Vélo'V Real-time data
 Default port should be 3030:
 `.\fuseki-server.bat --update --mem /ds`
 
-2. Launch the Python server in ./server_flask/
+2. Install python libraries
+
+`pip install -r requirements.txt`
+
+3. Load static data into the triplestore
+
+Run `python jsontordf.py` in folder ./load_graph
+
+4. Launch the Python server in folder ./server_flask
 
 `python server.py`
 
-3. Go to `localhost:5000`
+5. Go to [localhost:5000](http://localhost:5000)
 
-You can see the list of bike stations on the map and their information, as well as the current weather
+You can see the list of bike stations and their information, as well as the current weather
 Clicking on a station on the map will show:
 
 - Station location on the map

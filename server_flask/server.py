@@ -106,4 +106,4 @@ def map_popup(stations, live_count, point):
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port='5000')
+    app.run()
