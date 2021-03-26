@@ -13,14 +13,16 @@
 <body>
 	<div class="wrap">
 		<div class="left">
-			<div class="search">
-				<h1>Search for a station:</h1><br>
-				<input type="text" id="searchbar" placeholder='Enter name or address of a station'>
+			<div class="top">
+				<div class="search">
+					<h1>Search for a station:</h1><br>
+					<input type="text" id="searchbar" placeholder='Enter name or address of a station'>
+				</div>
+				<div id="weather"></div>
 			</div>
-			<div id="list-stations">
-
-			</div>
+			<div id="list-stations"></div>
 		</div>
+
 		<div class="right">
 			{{ map_div }}
 		</div>
@@ -33,6 +35,9 @@
 <script type="text/javascript" src="{{url_for('static', filename='js/index.js') }}"></script>
 <script type="text/javascript">
 	displayBikestands({{ data| tojson }})
+</script>
+<script type="text/javascript">
+	displayWeather({{ weather| tojson }})
 </script>
 
 </html>

@@ -1,4 +1,5 @@
 const listStations = document.getElementById("list-stations")
+const weatherDiv = document.getElementById("weather")
 const searchbar = document.getElementById("searchbar")
 
 searchbar.addEventListener('input', _ => {
@@ -44,6 +45,7 @@ function addCards(stations) {
 
     const stationName = document.createElement('h2')
     stationName.innerHTML = `${s.name}`
+    stationName.type
     card.appendChild(stationName)
 
     const stationAddress = document.createElement('p')
@@ -71,6 +73,25 @@ function addCards(stations) {
     // Add element to our list
     listStations.appendChild(card)
   }
+}
+
+function displayWeather(weather) {
+  const temperature = parseInt(weather[0].Temperature.Metric.Value);
+  const tempEmoji = temp => {
+    if (temp <= 0) return `❄️ ${temp}°C`;
+    else if (temp < 10) return `☁️ ${temp}°C`;
+    else if (temp < 20) return `⛅ ${temp}°C`;
+    return `☀️ ${temp}°C`;
+  }
+
+  const temp = document.createElement('h1');
+  temp.innerHTML = `${tempEmoji(temperature)}`
+  weatherDiv.appendChild(temp);
+
+  const txt = document.createElement('p');
+  txt.innerHTML = `${weather[0].WeatherText} `
+  txt.style.fontSize = "16px";
+  weatherDiv.appendChild(txt);
 }
 
 function escapeRegExp(s) {

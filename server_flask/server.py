@@ -12,13 +12,9 @@ app.secret_key = os.urandom(16)  # Random key
 
 
 # Home page
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/')
 def index():
-    """index, page de départ"""
-    if request.method == 'POST':
-        return redirect(url_for('geomap'))
-
-    return render_template('index.html')  # page d'accueil
+    return redirect(url_for('geomap'))
 
 
 # geomap of Lyon and its bike stations
@@ -42,8 +38,13 @@ def geomap():
 
     return render_template(
         'geomap.html', map_div=map_div, hdr_txt=hdr_txt, script_txt=script_txt,
-        data=live_count.to_dict('records')
+        data=live_count.to_dict('records'), weather=get_weather()
     )
+
+
+def get_weather():
+    return requests.get(
+        'http://dataservice.accuweather.com/currentconditions/v1/171210?apikey=WN0exWYSPkcNYvuTs08PIHA1Hq9WAC4b').json()
 
 
 def get_stations_infos():
