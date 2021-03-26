@@ -2,8 +2,9 @@ Lyon Vélo'V Real-time data
 -----
 
 ###### TODO: 
-- ###### Add a docker image to do the setup programatically
-- ###### Change Flask to debug False
+- ###### ~~Add a docker image to do the setup programatically~~
+  - Not possible with stains/jena-fuseki docker image (needs authentication with random password else can't update dataset)
+- ###### ~~Change Flask to debug False~~
 
 ## Instructions
 -----
@@ -12,13 +13,14 @@ Lyon Vélo'V Real-time data
 Default port should be 3030:
 `.\fuseki-server.bat --update --mem /ds`
 
-2. Launch the Python server
+2. Launch the Python server in ./server_flask/
 
 `python server.py`
 
 3. Go to `localhost:5000`
 
-Click on Geomap to get to the information on the stations
+You can see the list of bike stations on the map and their information, as well as the current weather
+Clicking on a station on the map will show:
 
 - Station location on the map
 - Station Name

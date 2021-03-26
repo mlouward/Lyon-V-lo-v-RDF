@@ -2,10 +2,10 @@ import json
 import os
 
 import folium
-from flask import (Flask, Markup, flash, redirect, render_template, request,
-                   session, url_for)
 import pandas as pd
 import requests
+from flask import (Flask, Markup, flash, redirect, render_template, request,
+                   session, url_for)
 
 app = Flask(__name__)
 app.secret_key = os.urandom(16)  # Random key
@@ -106,4 +106,4 @@ def map_popup(stations, live_count, point):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port='5000')

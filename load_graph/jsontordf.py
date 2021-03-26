@@ -2,7 +2,7 @@ import json
 import sys
 import urllib.request
 
-from rdflib import RDF, RDFS, Graph, Literal, Namespace, URIRef, BNode
+from rdflib import RDF, RDFS, BNode, Graph, Literal, Namespace, URIRef
 from rdflib.namespace import FOAF, XSD
 from rdflib.plugins.stores import sparqlstore
 
